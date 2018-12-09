@@ -9,6 +9,7 @@ html{
 body{
     overflow: hidden;
     font-size: 16px;
+    margin: 0;
 }
 
 h1{
@@ -73,6 +74,9 @@ header img{
 	float: right;
     overflow: hidden;
 }
+.topnav .icon {
+    display: none;
+  }
 .topnav a {
 	float: left;
     display: block;
@@ -98,6 +102,7 @@ header img{
 .topnav a.active:hover{
     background-color: rgb(144, 155, 158);
 }
+
 
 /* CSR page */
 .quote{
