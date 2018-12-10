@@ -65,7 +65,7 @@ header{
 
 header img{
 	float: left;
-	width: 22%;
+	width: auto;
 	height: 55px;
 }
 
