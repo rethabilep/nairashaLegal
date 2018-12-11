@@ -6,3 +6,11 @@ function myFunction() {
         x.className = "topnav";
     }
 }
+
+$(document).ready(
+    function () {
+        $("#emergency").click(function () {
+            $("#emergencyServices").toggle();
+        });
+    }
+);

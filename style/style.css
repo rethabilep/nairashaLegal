@@ -4,6 +4,7 @@ html{
     font-weight: 400 ;
     color: rgb(144, 155, 158);
     box-sizing: border-box;
+    width: 100vw;
 }
 
 body{
@@ -73,6 +74,7 @@ header img{
 .topnav {
 	float: right;
     overflow: hidden;
+    width: auto;
 }
 .topnav .icon {
     display: none;
@@ -89,8 +91,8 @@ header img{
     font-size: 17px;
 }
 
-.topnav a:hover {
-    background-color: rgba(235, 21, 39);
+.topnav a:hover, #emergencyServices li:hover {
+    background-color: rgb(235, 21, 39);
     color: rgb(255, 255, 255);
 
 }
@@ -103,7 +105,34 @@ header img{
     background-color: rgb(144, 155, 158);
 }
 
+.topnav a{
+    max-width:12vw;
+}
+#emergency{
+    width: 12vw;
+}
 
+#emergency:hover #emergencyServices{
+    display: block;
+}
+#emergencyServices {
+    display: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    clear: right;
+    width: auto;
+    top:54px;
+    right:0;
+
+}
+
+#emergencyServices > li{
+    list-style: none;
+    background-color: rgb(144, 155, 158);
+    color: rgb(235, 21, 39);
+}
 /* CSR page */
 .quote{
     position: fixed;
@@ -119,29 +148,17 @@ header img{
 .row {
     border: hidden;
 	width: 100%;
-	margin-top: 15%;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 6%;
-	padding-top: 0px;
-	padding-right: 0px;
-	padding-bottom: 0px;
-	padding-left: 0px;
-	display: inline-block
+    margin: 15% 0px 0px 6%;
+    padding: 0px;
+    display: inline-block
 }
 
 .row2 {
     border: hidden;
 	width: 100%;
-	margin-top: 0%;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 6%;
-	padding-top: 0px;
-	padding-right: 0px;
-	padding-bottom: 0px;
-	padding-left: 0px;
-	display: inline-block
+    margin: 0% 0px 0px 6%;
+    padding: 0px;
+    display: inline-block
 }
 
 .columns {
@@ -151,15 +168,9 @@ header img{
 	font-family: "Source Sans Pro";
 	color: #A5A5A5;
 	line-height: 24px;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	text-align: justify;
-	margin-top: 15px;
-	margin-bottom: 15px;
-	padding-left: 0px;
-	padding-right: 0px;
-	margin-left: 0%;
-	margin-right: 0px;
+    text-align: justify;
+    padding: 10px 0px;
+    margin: 15px 0px 15px 0%;
 }
 
 .columns h4{

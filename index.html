@@ -10,11 +10,13 @@
     <link href="style/responsive.css" type="text/css" rel="stylesheet">
     <!--Icons-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="javaScript/script.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false&v=3&libraries=geometry"></script>
 </head>
 
 <body>
-   <header>
+<header>
     <img src="img/Logo1.png" alt="nairasha logo">
 
     <div class="topnav" id="responsiveTopnav">
@@ -23,64 +25,66 @@
         <a href="">LEGAL SUPPORT</a>
         <a href="">DONATE</a>
         <a href="">NOKANENG</a>
-        <a href="">EMERGENCY SERVICES</a>
+        <a id="emergency">EMERGENCY SERVICES</a>
+        <ul id="emergencyServices">
+            <li><a href="emer-services.html?search=police"> Police Stations</a></li>
+            <li> <a href="emer-services.html?search=hospitals">Hospitals and health Services</a></li>
+            <li> <a href="emer-services.html?search=homes">Homes</a></li>
+        </ul>
         <a href="javascript:void(0);" class="icon" onclick="myFunction()" > <i class="fa fa-navicon"></i></a>
-       
-      </div>
-   </header> 
+    </div>
+</header>
 
-   <div class="CSR-page">
-       <div class="quote">
-           <h1>
-           YOUR FIRST CALL IN ANY SOCIAL EMERGENCY
-            </h1>
-       </div>
-       
-        <div class="row">
-            <div class="columns">
-                <img class="thumbnail" src="img/balaclava.png" alt=""/>
-                <h4>I have just been robbed</h4>
-                <button class="btn">What do I do?</button>
-          </div>
-        
-            <div class="columns">
-                <img class="thumbnail" src="img/harassment.png" alt=""/>
-                <h4>I have just been raped</h4>
-                <button class="btn">What do I do?</button>
-          </div>
-        
-            <div class="columns">
-                <img class="thumbnail" src="img/molestation.png" alt=""/>
-                <h4>I have just been molested</h4>
-                <button class="btn">What do I do?</button>
-          </div>
-        </div>
-        
-        
-        <div class="row2">
-                <div class="columns">
-                  <img class="thumbnail" src="img/wife-abuse.png" alt=""/>
-                    <h4>I am in an abusive relationship</h4>
-                    <button class="btn">What do I do?</button>
-              </div>
-            
-                <div class="columns">
-                    <img class="thumbnail" src="img/arson.png" alt=""/>  
-                    <h4>My house is on fire</h4>
-                    <button class="btn">What do I do?</button>
-              </div>
-            
-                <div class="columns">
-                    <img class="thumbnail" src="img/child-abuse.png" alt=""/>
-                    <h4>My parents are abusive</h4>
-                    <button class="btn">What do I do?</button>
-              </div>
-            </div>
-           
-        </div>
-    
-    
-       
+<div class="CSR-page">
+    <div class="quote">
+        <h1>
+            YOUR FIRST CALL IN ANY SOCIAL EMERGENCY
+        </h1>
+    </div>
 
+    <div class="row">
+        <div class="columns">
+            <img class="thumbnail" src="img/balaclava.png" alt=""/>
+            <h4>I have just been robbed</h4>
+            <button class="btn">What do I do?</button>
+        </div>
+
+        <div class="columns">
+            <img class="thumbnail" src="img/harassment.png" alt=""/>
+            <h4>I have just been raped</h4>
+            <button class="btn">What do I do?</button>
+        </div>
+
+        <div class="columns">
+            <img class="thumbnail" src="img/molestation.png" alt=""/>
+            <h4>I have just been molested</h4>
+            <button class="btn">What do I do?</button>
+        </div>
+    </div>
+
+
+    <div class="row2">
+        <div class="columns">
+            <img class="thumbnail" src="img/wife-abuse.png" alt=""/>
+            <h4>I am in an abusive relationship</h4>
+            <button class="btn">What do I do?</button>
+        </div>
+
+        <div class="columns">
+            <img class="thumbnail" src="img/arson.png" alt=""/>
+            <h4>My house is on fire</h4>
+            <button class="btn">What do I do?</button>
+        </div>
+
+        <div class="columns">
+            <img class="thumbnail" src="img/child-abuse.png" alt=""/>
+            <h4>My parents are abusive</h4>
+            <button class="btn">What do I do?</button>
+        </div>
+    </div>
+</div>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCmvWSeWu-g_uQ7TpQBZFspA0KaTnMmdCg&callback=initMap"></script>
+<script src="javaScript/emergencyServices.js"></script>
+<script src="javaScript/script.js"></script>
 </body>
 </html>
