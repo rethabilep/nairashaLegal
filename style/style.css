@@ -192,4 +192,17 @@ header img{
     background-color: rgb(244, 135, 143);
     color:white;
 }
-
+.dialogflow{
+    float: right;
+    width:20%; 
+    height: auto%;
+}
+.dialogflow img{
+    width:30%;
+    margin-right: 0;
+    position: 80% 100%;
+}
+.dialogflow iframe{
+    height: 100%;
+    display: none;
+}
