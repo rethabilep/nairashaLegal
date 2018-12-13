@@ -194,7 +194,7 @@ header img{
 }
 
 
-#btn{
+.btn{
     border: 1px solid rgb(235, 21, 39);
     background-color: rgb(235, 21, 39);
     color:white;
@@ -209,13 +209,13 @@ header img{
     text-decoration:none;
 
 }
-#btn:hover{
+.btn:hover{
     background-color: rgb(244, 135, 143);
     color:white;
 }
 
 /* CSR modal */
-#csrModal {
+.csrModal {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
     z-index: 2000; /* Sit on top */
