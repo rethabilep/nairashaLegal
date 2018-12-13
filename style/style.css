@@ -173,7 +173,7 @@ header img{
 }
 
 
-.btn{
+#btn{
     border: 1px solid rgb(235, 21, 39);
     background-color: rgb(235, 21, 39);
     color:white;
@@ -188,8 +188,113 @@ header img{
     text-decoration:none;
 
 }
-.btn:hover{
+#btn:hover{
     background-color: rgb(244, 135, 143);
     color:white;
+}
+
+/* CSR modal */
+#csrModal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 2000; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 100%;
+}
+
+.modal-content{
+    width:90%;
+    height: 85%;
+    color: #1E6F94;
+}
+
+.modal-content h2{
+   color: rgb(235, 21, 39);
+   text-align: center;  
+}
+
+/* The Close Button */
+.close {
+    color: rgb(170, 170, 170);
+    float: right;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+.modal-row {
+    border: hidden;
+	width: 100%;
+	margin-top: 2%;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 6%;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	display: inline-block
+}
+
+.modal-row2 {
+    border: hidden;
+	width: 100%;
+	margin-top: 0%;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 6%;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	display: inline-block
+}
+
+.modal-columns {
+	background-color: rgb(255, 255, 255);
+    width: 33%;
+    border-radius: 200px;
+	float: left;
+	font-family: "Source Sans Pro";
+	color: #A5A5A5;
+	line-height: 24px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: justify;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-left: 0%;
+	margin-right: 0px;
+}
+
+.columns h4{
+    margin-top: 1%;
+}
+
+.thumbnail {
+	width: 13%;
+	height: 8%;
+	margin-left: 16%;
 }
 
