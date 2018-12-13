@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76c0c4e3-c566-491b-a9c2-3e3e2be00f3d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaScript/csrModal.js" beforeDir="false" afterPath="$PROJECT_DIR$/javaScript/csrModal.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emer-services.html" beforeDir="false" afterPath="$PROJECT_DIR$/emer-services.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -47,8 +44,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/javaScript/csrModal.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret lean-forward="true" />
+            <state relative-caret-position="210">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
@@ -91,12 +88,12 @@
         <option value="$PROJECT_DIR$/style/normalize.css" />
         <option value="$PROJECT_DIR$/style/emer-services.css" />
         <option value="$PROJECT_DIR$/maps2.html" />
-        <option value="$PROJECT_DIR$/emer-services.html" />
         <option value="$PROJECT_DIR$/maps.html" />
         <option value="$PROJECT_DIR$/javaScript/emergencyServices.js" />
         <option value="$PROJECT_DIR$/style/style.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/javaScript/csrModal.js" />
+        <option value="$PROJECT_DIR$/emer-services.html" />
       </list>
     </option>
   </component>
@@ -112,6 +109,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -119,22 +117,16 @@
               <item name="nairashaLegal" type="b2602c69:ProjectViewProjectNode" />
               <item name="nairashaLegal" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="nairashaLegal" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nairashaLegal" type="462c0819:PsiDirectoryNode" />
-              <item name="javaScript" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../inspireInnovation/scripts/modal.js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/index.html" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.standard" value="project" />
@@ -143,7 +135,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
-    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/../inspireInnovation/scripts/modal.js" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/index.html" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -186,18 +178,17 @@
       <workItem from="1544518615825" duration="4270000" />
       <workItem from="1544555788533" duration="23000" />
       <workItem from="1544693860470" duration="8149000" />
-      <workItem from="1544723114548" duration="226000" />
+      <workItem from="1544723114548" duration="540000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29990000" />
+    <option name="totallyTimeSpent" value="30288000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="757" width="1368" height="780" extended-state="6" />
-    <editor active="true" />
+    <frame x="-1" y="-11" width="1368" height="780" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.16976917" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16976917" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -209,7 +200,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32868218" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.53488374" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.53488374" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -294,8 +285,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/javaScript/csrModal.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
+        <state relative-caret-position="210">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
