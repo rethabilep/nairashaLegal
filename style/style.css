@@ -334,4 +334,5 @@ header img{
     float: right;
     font-size: 30px;
     font-weight: bold;
+    display: none;
 }

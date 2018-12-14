@@ -14,7 +14,7 @@ function initMap() {
     service.nearbySearch({
         location: place,
         radius: 20000,
-        type: [serviceType] //TODO: type must be read from the url
+        type: [serviceType]
     }, callback);
 }
 function callback(results, status) {

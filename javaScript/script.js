@@ -14,8 +14,16 @@ $(document).ready(
         });
 
         $("#chatIcon").click(function () {
-            $("#chatIcon").hide();
+            $(this).hide();
             $(".dialogflow iframe").show();
+            $(".closeChat").show();
+        });
+
+        $(".closeChat").click(function () {
+            $("#chatIcon").show();
+            $(".dialogflow iframe").hide();
+            $(".closeChat").hide();
+
         })
     }
 );
