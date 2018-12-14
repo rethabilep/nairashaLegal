@@ -319,3 +319,19 @@ header img{
 	margin-left: 16%;
 }
 
+.dialogflow {
+    position: absolute;
+    bottom: 0;
+    right:0;
+}
+
+.dialogflow iframe{
+    display: none;
+}
+
+.closeChat{
+    color: rgb(170, 170, 170);
+    float: right;
+    font-size: 30px;
+    font-weight: bold;
+}

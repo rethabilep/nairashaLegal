@@ -12,5 +12,10 @@ $(document).ready(
         $("#emergency").click(function () {
             $("#emergencyServices").toggle();
         });
+
+        $("#chatIcon").click(function () {
+            $("#chatIcon").hide();
+            $(".dialogflow iframe").show();
+        })
     }
 );
