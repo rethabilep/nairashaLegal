@@ -331,8 +331,12 @@ header img{
 
 .closeChat{
     color: rgb(170, 170, 170);
-    float: right;
+    margin-left: 90%;
+    margin-top: 1%;
+    position: absolute;
     font-size: 30px;
     font-weight: bold;
     display: none;
+    cursor: pointer;
+
 }
