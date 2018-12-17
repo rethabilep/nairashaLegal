@@ -324,7 +324,21 @@ header img{
     bottom: 0;
     right:0;
 }
+.chat-icon{
+    width: 23%;
+    height: 30%;
+    margin-left: 70%; 
+}
+.chat{
+    font-size: 73%;
+    margin-top:0; 
+    margin-left: 60%;
 
+}
+#chatIcon{
+    width: 100%;
+    height: auto;
+}
 .dialogflow iframe{
     display: none;
 }
@@ -339,4 +353,19 @@ header img{
     display: none;
     cursor: pointer;
 
+}
+
+/* Map page */
+#map {
+    height: 100%;
+    width: 80%;
+    margin-left: 20%;
+}
+
+.map-form{
+    margin-top: 12%;
+    width: 20%;
+    height: 20%;
+    float: left;
+    background-color: rgb(235, 21, 39);
 }
