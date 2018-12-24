@@ -91,7 +91,9 @@ header img{
     font-size: 17px;
 }
 
-.topnav a:hover, #emergencyServices li a:hover {
+.topnav a:hover
+/*,#emergencyServices li a:hover */
+{
     background-color: rgb(235, 21, 39);
     color: rgb(255, 255, 255);
 
@@ -115,33 +117,33 @@ header img{
 
 #emergencyServices {
     display: none;
-    float: right;
-    margin: 0;
-    padding: 0;
+    /*float: right;*/
+    /*margin: 0;*/
+    /*padding: 0;*/
     position: absolute;
-    clear: right;
-    width: auto;
+    /*clear: right;*/
+    /*width: auto;*/
     top:54px;
-    right:0;
+    /*right:0;*/
 
 }
 
 #emergencyServices > li{
     list-style: none;
-    background-color: rgb(144, 155, 158);
-    color: rgb(235, 21, 39);
+    /*background-color: rgb(144, 155, 158);*/
+    /*color: rgb(235, 21, 39);*/
 }
 
-#emergencyServices > li > a {
-    font-size: 1em;
+#emergencyServices  li  a {
+    /*font-size: 1em;*/
     font-family: 'Lato', sans-serif;
     font-weight: normal;
-    background-color: rgb(144, 155, 158);
-    color: rgb(235, 21, 39);
+    /*background-color: rgb(144, 155, 158);*/
+    /*color: rgb(235, 21, 39);*/
     text-decoration: none;
-    float: left;
+    /*float: left;*/
     width: 12vw;
-    text-align: left;
+    /*text-align: left;*/
 }
 /* CSR page */
 .quote{
