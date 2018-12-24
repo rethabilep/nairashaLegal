@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Nairasha Legal | Emergency Services</title>
+    <!--Material Design-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css">
+    <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+    <!--Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Poiret One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400" rel="stylesheet">
+    <!--Styles-->
+    <link href="style/style.css" type="text/css" rel="stylesheet">
+    <link href="public/style/emer-services.css" type="text/css" rel="stylesheet">
+    <link href="style/responsive.css" type="text/css" rel="stylesheet">
+    <!--Icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!--<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false&v=3&libraries=geometry"></script>-->
+
+
+
+</head>
+<body>
+<aside id ="drawer" class="mdc-drawer mdc-drawer--dismissible">
+    <div class="mdc-drawer__content">
+        <nav class="mdc-list">
+            <a class="mdc-list-item mdc-list-item--activated" href="#" aria-selected="true">
+                <i class="material-icons mdc-list-item__graphic" aria-hidden="true">inbox</i>
+                <span class="mdc-list-item__text">Inbox</span>
+            </a>
+            <a class="mdc-list-item" href="#">
+                <i class="material-icons mdc-list-item__graphic" aria-hidden="true">send</i>
+                <span class="mdc-list-item__text">Outgoing</span>
+            </a>
+            <a class="mdc-list-item" href="#">
+                <i class="material-icons mdc-list-item__graphic" aria-hidden="true">drafts</i>
+                <span class="mdc-list-item__text">Drafts</span>
+            </a>
+        </nav>
+    </div>
+</aside>
+<header id="app-bar" class="mdc-top-app-bar mdc-elevation--7">
+    <div class="mdc-top-app-bar__row">
+        <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-start mdc-elevation--7">
+            <img src="img/Logo1.png" alt="nairasha logo">
+        </section>
+        <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-end mdc-elevation--7" role="toolbar">
+            <div class="mdc-tab-bar" role="tablist">
+                <div class="mdc-tab-scroller">
+                    <div class="mdc-tab-scroller__scroll-area">
+                        <div class="mdc-tab-scroller__scroll-content">
+                            <button class="mdc-tab " role="tab" aria-selected="true" tabindex="0">
+                <span class="mdc-tab__content">
+                    <span class="mdc-tab__text-label">HOME</span>
+                </span>
+                                <span class="mdc-tab-indicator ">
+                        <span class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span>
+                    </span>
+                                <span class="mdc-tab__ripple"></span>
+                            </button>
+                            <button class="mdc-tab " role="tab" aria-selected="true" tabindex="1">
+                <span class="mdc-tab__content">
+                    <span class="mdc-tab__text-label">ABOUT</span>
+                </span>
+                                <span class="mdc-tab-indicator ">
+                        <span class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span>
+                    </span>
+                                <span class="mdc-tab__ripple"></span>
+                            </button>
+                            <button class="mdc-tab " role="tab" aria-selected="true" tabindex="2">
+                <span class="mdc-tab__content">
+                    <span class="mdc-tab__text-label">LEGAL SUPPORT</span>
+                </span>
+                                <span class="mdc-tab-indicator ">
+                        <span class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span>
+                    </span>
+                                <span class="mdc-tab__ripple"></span>
+                            </button>
+                            <button class="mdc-tab " role="tab" aria-selected="true" tabindex="3">
+                <span class="mdc-tab__content">
+                    <span class="mdc-tab__text-label">DONATE</span>
+                </span>
+                                <span class="mdc-tab-indicator">
+                        <span class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span>
+                    </span>
+                                <span class="mdc-tab__ripple"></span>
+                            </button>
+                            <button class="mdc-tab " role="tab" aria-selected="true" tabindex="4">
+                <span class="mdc-tab__content">
+                    <span class="mdc-tab__text-label">NOKANENG</span>
+                </span>
+                                <span class="mdc-tab-indicator">
+                        <span class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span>
+                    </span>
+                                <span class="mdc-tab__ripple"></span>
+                            </button>
+                            <button id="emergency" class="mdc-tab mdc-tab--active" role="tab" aria-selected="true" tabindex="5">
+                <span class="mdc-tab__content">
+                    <span class="mdc-tab__text-label">EMERGENCY SERVICES</span>
+                </span>
+                                <span class="mdc-tab-indicator mdc-tab-indicator--active">
+                        <span class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span>
+                    </span>
+                                <span class="mdc-tab__ripple"></span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--<a class="active" href="index-original.html">HOME</a>-->
+            <!--<a href="">ABOUT</a>-->
+            <!--<a href="">LEGAL SUPPORT</a>-->
+            <!--<a href="">DONATE</a>-->
+            <!--<a href="">NOKANENG</a>-->
+            <!--<a id="emergency">EMERGENCY SERVICES</a>-->
+            <ul id="emergencyServices" class="mdc-list">
+                <li class="mdc-list-item" tabindex="0">
+                    <span class="mdc-list-item__text"><a href="emer-services.html?search=police"> Police Stations</a></span>
+                </li>
+                <li class="mdc-list-item">
+                    <span class="mdc-list-item__text"><a href="emer-services.html?search=hospitals">Hospitals and health Services</a></span>
+                </li>
+                <li class="mdc-list-item">
+                    <span class="mdc-list-item__text"><a href="emer-services.html?search=homes">Homes</a></span>
+                </li>
+            </ul>
+        </section>
+    </div>
+</header>
+<div class="mdc-drawer-app-content mdc-top-app-bar--fixed-adjust">
+    <main class="main-content" id="main-content">
+        <div id="map"></div>
+    </main>
+</div>
+
+<script src ="scripts/material.js"></script>
+<script src="scripts/emergencyServices.js"></script>
+<script src="scripts/script.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC-8trTGc8RoSXOWhnawqg0KKQMbEUIXwM&libraries=places&callback=initMap"
+        async defer></script>
+</body>
+</html>
