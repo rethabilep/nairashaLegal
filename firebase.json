@@ -17,7 +17,7 @@
     ]
   },
   "storage": {
-    "rules": "storage.rules"
+    "rules": "Y"
   },
   "firestore": {
     "rules": "firestore.rules",

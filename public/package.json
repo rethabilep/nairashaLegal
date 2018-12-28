@@ -8,8 +8,6 @@
     "start": "webpack-dev-server --progress"
   },
   "devDependencies": {
-    "@material/button": "^0.35.0",
-    "@material/ripple": "^0.42.0",
     "babel-core": "^6.22.1",
     "babel-loader": "^7.0.0",
     "babel-preset-env": "^1.7.0",
@@ -19,12 +17,10 @@
     "node-sass": "^4.9.0",
     "sass-loader": "^6.0.4",
     "webpack": "^3.0.0",
+    "webpack-cli": "^2.0.0",
     "webpack-dev-server": "^2.4.3"
   },
   "dependencies": {
-    "@material/button": "^0.35.0",
-    "@material/ripple": "latest",
-    "@material/textfield": "^0.35.0",
     "material-components-web": "^0.42.1"
   },
   "repository": {
