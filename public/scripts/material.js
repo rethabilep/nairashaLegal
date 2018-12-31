@@ -5,7 +5,9 @@ import {MDCTabIndicator} from '@material/tab-indicator';
 import {MDCRipple} from '@material/ripple';
 import {MDCTextField} from '@material/textfield';
 import {MDCTextFieldIcon} from '@material/textfield/icon';
+import {MDCList} from '@material/list';
 
+const list = new MDCList(document.querySelector('.mdc-list'));
 const startingPointIcon = new MDCTextFieldIcon(document.querySelector('#starting-point-icon'));
 const destinationIcon = new MDCTextFieldIcon(document.querySelector('#destination-icon'));
 const starting_point = new MDCTextField(document.querySelector('.starting-point'));
