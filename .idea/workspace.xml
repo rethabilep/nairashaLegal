@@ -3,11 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="76c0c4e3-c566-491b-a9c2-3e3e2be00f3d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/app.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/bundle.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/emer-services.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/emer-services.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/maps.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/public/scripts/maps.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/scripts/maps.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/scripts/material.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/scripts/material.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/style/emer-services.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/style/emer-services.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/style/emer-services.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/topAppBar.html" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,8 +24,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/emer-services.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="40" column="55" selection-start-line="40" selection-start-column="55" selection-end-line="40" selection-end-column="55" />
+            <state relative-caret-position="150">
+              <caret line="31" column="80" selection-start-line="31" selection-start-column="80" selection-end-line="31" selection-end-column="80" />
               <folding>
                 <element signature="n#head#0;n#html#0;n#!!top" />
                 <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
@@ -54,23 +55,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/scripts/maps.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="458">
-              <caret line="160" column="39" selection-start-line="160" selection-start-column="39" selection-end-line="160" selection-end-column="39" />
+            <state relative-caret-position="473">
+              <caret line="207" column="51" selection-start-line="207" selection-start-column="51" selection-end-line="207" selection-end-column="51" />
               <folding>
-                <element signature="e#221#1988#0" />
-                <element signature="n#!!block;n#handleLocationError#0" />
-                <element signature="n#!!block;n#enterPlace#0" />
+                <element signature="e#276#2407#0" />
                 <element signature="n#!!block;n#eventFire#0" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/maps.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" column="49" selection-start-line="30" selection-start-column="49" selection-end-line="30" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -109,6 +99,7 @@
       <find>style</find>
       <find>emerg</find>
       <find>$mdc-drawer-title-ink-opacity</find>
+      <find>navig</find>
     </findStrings>
     <replaceStrings>
       <replace>class=&quot;csrModal&quot;</replace>
@@ -150,8 +141,8 @@
         <option value="$PROJECT_DIR$/public/maps.html" />
         <option value="$PROJECT_DIR$/public/scripts/emergencyServices.js" />
         <option value="$PROJECT_DIR$/public/scripts/material.js" />
-        <option value="$PROJECT_DIR$/public/emer-services.html" />
         <option value="$PROJECT_DIR$/public/style/emer-services.scss" />
+        <option value="$PROJECT_DIR$/public/emer-services.html" />
         <option value="$PROJECT_DIR$/public/scripts/maps.js" />
       </list>
     </option>
@@ -178,17 +169,6 @@
             <path>
               <item name="nairashaLegal" type="b2602c69:ProjectViewProjectNode" />
               <item name="nairashaLegal" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nairashaLegal" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nairashaLegal" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nairashaLegal" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nairashaLegal" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="scripts" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -376,12 +356,12 @@
       <workItem from="1545676213165" duration="47000" />
       <workItem from="1545898908287" duration="8981000" />
       <workItem from="1545990440082" duration="13846000" />
-      <workItem from="1546252183930" duration="3686000" />
+      <workItem from="1546252183930" duration="10359000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="102702000" />
+    <option name="totallyTimeSpent" value="109375000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -408,7 +388,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.36434108" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32868218" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4981385" weight="0.37209302" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4981385" weight="0.40620154" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5018615" side_tool="true" weight="0.7844961" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Python Console" order="12" />
@@ -580,26 +560,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/emer-services.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="40" column="55" selection-start-line="40" selection-start-column="55" selection-end-line="40" selection-end-column="55" />
-          <folding>
-            <element signature="n#head#0;n#html#0;n#!!top" />
-            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#button#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#button#1;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#button#2;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#button#3;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#span#0;n#button#3;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#button#4;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#button#5;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/style/emer-services.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -624,14 +584,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/firebase-debug.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider">
+        <state relative-caret-position="-514" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/emer-services.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="31" column="80" selection-start-line="31" selection-start-column="80" selection-end-line="31" selection-end-column="80" />
+          <folding>
+            <element signature="n#head#0;n#html#0;n#!!top" />
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#button#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#button#1;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#button#2;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#button#3;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#span#0;n#button#3;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#button#4;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#button#5;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/scripts/maps.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
-          <caret line="160" column="39" selection-start-line="160" selection-start-column="39" selection-end-line="160" selection-end-column="39" />
+        <state relative-caret-position="473">
+          <caret line="207" column="51" selection-start-line="207" selection-start-column="51" selection-end-line="207" selection-end-column="51" />
           <folding>
-            <element signature="e#221#1988#0" />
-            <element signature="n#!!block;n#handleLocationError#0" />
-            <element signature="n#!!block;n#enterPlace#0" />
+            <element signature="e#276#2407#0" />
             <element signature="n#!!block;n#eventFire#0" />
           </folding>
         </state>
