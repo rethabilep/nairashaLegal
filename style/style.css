@@ -336,3 +336,9 @@ header img{
     font-weight: bold;
     display: none;
 }
+
+/* Site under construction page */
+.construction{
+    margin-top: 10%;
+    margin-left: 5%;
+}
