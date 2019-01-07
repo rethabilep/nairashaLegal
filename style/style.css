@@ -328,6 +328,8 @@ header img{
     width: 23%;
     height: 30%;
     margin-left: 70%; 
+    cursor: pointer;
+    
 }
 .chat{
     font-size: 73%;
