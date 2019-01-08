@@ -1,7 +1,8 @@
-let map, service, userPos, infoWindow, directionsDisplay, directionsService, places;
+let map, service, userPos, directionsDisplay, infoWindow, directionsService, places;
 let serviceType = window.location.href;
 let index = serviceType.indexOf('search=');
 serviceType = serviceType.substring(index+7);
+// const apiKey = "AIzaSyC-8trTGc8RoSXOWhnawqg0KKQMbEUIXwM";
 const mapStyle = [
     {
         "featureType": "administrative",
@@ -104,6 +105,7 @@ function initMap() {
         zoom: 15,
         styles: mapStyle,
     });
+    console.log(map.center);
     infoWindow = new google.maps.InfoWindow;
     if (navigator.geolocation) {
         navigator.geolocation.getCurrentPosition(function (position) {
@@ -115,6 +117,7 @@ function initMap() {
             infoWindow.setContent('You are here.');
             infoWindow.open(map);
             map.setCenter(userPos);
+            console.log(map.center);
         }, function () {
             handleLocationError(true, infoWindow, map.getCenter());
         });
@@ -128,8 +131,12 @@ function initMap() {
         location: {lat: -29.3151, lng: 27.4869},
         radius: 20000,
         type: [serviceType]
+        // TODO: Add search validation in the backend. All service type keywords to be singular.
     }, callback);
+    map.setCenter(userPos);
+    console.log(map.center);
     directionsDisplay.setMap(map);
+
 }
 
 function callback(results, status) {
@@ -149,6 +156,7 @@ function createMarker(place, userPos) {
         map: map,
         position: place.geometry.location
     });
+    labelPlace(place);
     marker.addListener('click', function(){
         enterPlace(place);
         calculateAndDisplayRoute(userPos, placeLoc);
@@ -161,6 +169,16 @@ function createMarker(place, userPos) {
     });
 }
 
+function labelPlace(place) {
+    let placeLoc = place.geometry.location;
+    let infoWindow = new google.maps.InfoWindow();
+    let name = place.name;
+    infoWindow.setContent(name);
+    infoWindow.setPosition(placeLoc);
+    // infoWindow.setOptions({pixelOffset: new google.maps.Size(0, -30)});
+    infoWindow.open(map);
+
+}
 function handleLocationError(browserHasGeolocation, infoWindow, pos) {
     infoWindow.setPosition(pos);
     infoWindow.setContent(browserHasGeolocation ?
@@ -176,7 +194,6 @@ function enterPlace(place) {
 }
 
 function calculateAndDisplayRoute(origin, destination, selectedMode="DRIVING") {
-    console.log(origin);
     directionsService.route({
         origin: origin,  // User's input
         destination: destination,  // Selected destination
@@ -211,9 +228,34 @@ $(".travel_mode").click(function () {
     calculateAndDisplayRoute(userPos, placeLoc, selectedMode);
 });
 
-// TODO: Create a database((JSON) of all health services, police stations and half-way homes in Lesotho
-// TODO: Find/Create appropriate images/icons to represent health services, police stations and half-way homes
-// TODO: Add directions from user's location to Emergency Service
-// TODO: Give estimates of the time it would take for the user to arrive at emergency service with different modes of transport
-// TODO: Read user's GPS location or allow user to enter their location
-// TODO: Show markers of all chosen emrgency service on the map.
+/*
+ TODO: Create a database((JSON) of all health services, police stations and half-way homes in Lesotho
+ TODO: Find/Create appropriate images/icons to represent health services, police stations and half-way homes
+ TODO: Add directions from user's location to Emergency Service
+ TODO: Give estimates of the time it would take for the user to arrive at emergency service with different modes of transport
+ TODO: Read user's GPS location or allow user to enter their location
+ TODO: Show markers of all chosen emergency service on the map.
+
+
+
+ map.data.addListener('click', event => {
+     let category = event.feature.getProperty('category');
+     let name = event.feature.getProperty('name');
+     let description = event.feature.getProperty('description');
+     let hours = event.feature.getProperty('hours');
+     let phone = event.feature.getProperty('phone');
+     let position = event.feature.getGeometry().get();
+     let content = `
+     <img style="float:left; width:200px; margin-top:30px" src="img/logo_${category}.png">
+     <div style="margin-left:220px; margin-bottom:20px;">
+       <h2>${name}</h2><p>${description}</p>
+       <p><b>Open:</b> ${hours}<br/><b>Phone:</b> ${phone}</p>
+       <p><img src="https://maps.googleapis.com/maps/api/streetview?size=350x120&location=${position.lat()},${position.lng()}&key=${apiKey}"></p>
+     </div>
+   `;
+     infoWindow.setContent(content);
+     infoWindow.setPosition(position);
+     infoWindow.setOptions({pixelOffset: new google.maps.Size(0, -30)});
+     infoWindow.open(map);
+ });
+*/
