@@ -1,0 +1,52 @@
+[debug] [2018-12-24T11:51:25.249Z] ----------------------------------------------------------------------
+[debug] [2018-12-24T11:51:25.253Z] Command:       /usr/bin/node /home/morema/Projects/nairashaLegal/node_modules/.bin/firebase deploy --except firestore
+[debug] [2018-12-24T11:51:25.254Z] CLI Version:   6.2.2
+[debug] [2018-12-24T11:51:25.254Z] Platform:      linux
+[debug] [2018-12-24T11:51:25.254Z] Node Version:  v8.10.0
+[debug] [2018-12-24T11:51:25.254Z] Time:          Mon Dec 24 2018 13:51:25 GMT+0200 (SAST)
+[debug] [2018-12-24T11:51:25.254Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-12-24T11:51:25.541Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-12-24T11:51:25.543Z] > authorizing via signed-in user
+[debug] [2018-12-24T11:51:25.544Z] [iam] checking project nairashachats for permissions ["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get","firebasedatabase.instances.update","firebasehosting.sites.update","firebaserules.releases.create","firebaserules.releases.update","firebaserules.rulesets.create"]
+[debug] [2018-12-24T11:51:25.548Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-12-24T11:51:25.563Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2018-12-24T11:51:30.410Z] <<< HTTP RESPONSE 200
+[debug] [2018-12-24T11:51:30.563Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/nairashachats:testIamPermissions  
+
+[debug] [2018-12-24T11:51:33.026Z] <<< HTTP RESPONSE 200
+[debug] [2018-12-24T11:51:33.029Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/nairashachats  
+ 
+[debug] [2018-12-24T11:51:37.511Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'nairashachats'...
+[info] 
+[info] i  deploying database, storage, functions, hosting
+[info] Running command: npm --prefix "$RESOURCE_DIR" run lint
+[info] ✔  functions: Finished running predeploy script.
+[info] i  database: checking rules syntax...
+[debug] [2018-12-24T11:52:05.550Z] >>> HTTP REQUEST PUT https://nairashachats.firebaseio.com/.settings/rules.json?dryRun=true  
+ {
+  "rules": {
+    ".read": "auth != null",
+    ".write": "auth != null"
+  }
+}
+[debug] [2018-12-24T11:52:20.758Z] <<< HTTP RESPONSE 200
+[info] ✔  database: rules syntax for database nairashachats is valid
+[debug] [2018-12-24T11:52:20.761Z] >>> HTTP REQUEST GET https://appengine.googleapis.com/v1/apps/nairashachats  
+ 
+[info] 
+
+There was an issue deploying your functions. Verify that your project has a Google App Engine instance setup at https://console.cloud.google.com/appengine and try again. If this issue persists, please contact support.
+[debug] [2018-12-24T11:53:17.271Z] Error: socket hang up
+    at TLSSocket.onHangUp (_tls_wrap.js:1137:19)
+    at Object.onceWrapper (events.js:313:30)
+    at emitNone (events.js:111:20)
+    at TLSSocket.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickDomainCallback (internal/process/next_tick.js:218:9)
+[error] 
+[error] Error: Server Error. socket hang up
