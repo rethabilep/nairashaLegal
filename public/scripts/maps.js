@@ -176,9 +176,14 @@ function createMarker(place, userPos) {
         eventFire(document.getElementById('destination'), 'blur');
         map.setZoom(15);
     });
+
+    marker.addListener('mousehover', function () {
+        console.log(place.name);
+        displayLabel(place);
+    })
 }
 
-function labelPlace(place) {
+function displayLabel(place) {
     let placeLoc = place.geometry.location;
     let infoWindow = new google.maps.InfoWindow();
     let name = place.name;
@@ -239,10 +244,9 @@ $(".travel_mode").click(function () {
 
 /*
  TODO: Create a database((JSON) of all health services, police stations and half-way homes in Lesotho
- TODO: Add directions from user's location to Emergency Service
  TODO: Give estimates of the time it would take for the user to arrive at emergency service with different modes of transport
- TODO: Read user's GPS location or allow user to enter their location
- TODO: Show markers of all chosen emergency service on the map.
+ TODO: Allow user to enter their location / location they want directions from.
+ TODO: Filter emergency services by type (police stations, health services, half-way homes)
 
 
 
