@@ -1,9 +1,15 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
 html{
     font-family: 'Lato', sans-serif;
     font-size: 16px;
     font-weight: 400 ;
     color: rgb(144, 155, 158);
-    box-sizing: border-box;
+   overflow: scroll;
+
 }
 
 body{
@@ -90,14 +96,15 @@ header img{
 }
 
 .topnav a:hover {
-    background-color: rgba(235, 21, 39);
+    background-color: rgba(144, 155, 158, 0.5);
     color: rgb(255, 255, 255);
 
 }
 
 .topnav a.active {
-    color: rgb(235, 21, 39);
+    color: rgb(144, 155, 158);
     background-color: rgb(255, 255, 255);
+    text-decoration: underline rgb(144, 155, 158);
 } 
 .topnav a.active:hover{
     background-color: rgb(144, 155, 158);
@@ -193,3 +200,332 @@ header img{
     color:white;
 }
 
+/* Legal site */
+#book_now{
+    background-color: rgb(145, 155, 158);
+    color: rgb(255, 255, 255);
+}
+
+.title{
+    width:32%;
+    margin-top: 13%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 150%;
+  
+}
+.title h1{
+    font-weight: 500%;
+    letter-spacing: 8pt;
+}
+
+.paragraph{
+    width: 70%;
+    margin-top: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.paragraph button{
+    cursor: pointer;
+    margin-top: 5%;
+}
+.btn_book{
+    border: 2px solid rgb(144, 155, 158);
+    border-radius: 5px;
+    background-color: rgb(144, 155, 158);
+    color: rgb(255, 255, 255);
+    padding:10px 25px;
+    margin: 0;
+    float: left;
+    margin-left: 30%;
+}
+
+.btn_learn_more{
+    border: 2px solid rgb(144, 155, 158);
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(144, 155, 158);
+    padding:10px 30px;
+    margin: 0;
+    float: right;
+    margin-right: 30%;
+}
+
+.paragraph button:hover{
+    background-color: rgb(140, 140, 140);
+    color: rgb(255, 255, 255);
+}
+
+.what_we_do_thumbnail {
+    border: 1px solid black;
+	width: 70%;
+	height: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+}
+
+.what_we_do_thumbnail img{
+    width: 100%;
+    height: auto;
+}
+
+.sub_title{
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 150%;
+    width: 25%;
+    border: hidden;
+}
+.sub_title h2{
+    font-weight: 500%;
+    letter-spacing: 5pt;
+}
+
+#what_we_do p{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sub_title_paragraph button{
+    margin-right: 71%;
+    margin-top: 1%;
+    cursor: pointer;
+}
+.sub_title_paragraph button:hover{
+    background-color: rgb(140, 140, 140);
+    color: rgb(255, 255, 255);
+}
+
+/* Services page */
+
+#services .title{
+    width: 17%;
+}
+.column{
+    background-color: transparent;
+    border: hidden;
+    float:left;
+    width:25%;
+    height: 60%;
+    margin-left: 3%;
+}
+
+.row{
+    margin-top: 3%;
+    margin-left: 5%;
+   
+}
+
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.row2{
+    margin-top: 0%;
+    margin-left: 5%;
+}
+
+.row2::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.name{
+    background-color: transparent;
+    border: hidden;
+    margin-top: 0;
+    width: 100%;
+    height: 45%;
+}
+
+.column h2{
+   
+    margin-top: 2%;
+    margin-left: 40%;
+}
+
+.column h5{
+    margin-top: 2%;
+    margin-left: 18%; 
+}
+
+.column h6{
+    margin-top: 0;
+    margin-left: 18%;
+}
+
+.thumbnail{
+    margin-left: 17%;
+    height:100%;
+    width: 95%;
+    border: hidden;
+}
+
+.thumbnail img{
+    width: 100%;
+    height:100%;
+    margin-bottom: 0;
+   
+}
+.description {
+    background-color:transparent;
+    width: 95%;
+    height: 70%;
+    margin-top: 5%;
+    position: relative;
+    text-align: center;
+    margin-left: 15%;
+}
+
+#services .btn_learn_more{
+    margin-left: 40%;
+    float: none;
+    margin-top: 5%;
+    background-color: rgb(144, 155, 158);
+    color: white;
+}
+
+/* blog posts page */
+#blog .title{
+    width: 25%;
+}
+#blog .column{
+    width: 20%;
+    height: 50%;
+    margin-left: 0;
+    margin-right: 2%;
+    margin-top: 0;
+}
+
+.btn_see_more{
+    border: 2px solid rgb(144, 155, 158);
+    border-radius: 5px;
+    padding:10px 30px;
+    margin: 0;
+    margin-left: 40%;
+    float: none;
+    margin-top: 0%;
+    background-color: rgb(144, 155, 158);
+    color: white;
+        
+}
+
+/* Need help section */
+
+#help .title{
+    width: 45%;
+    margin-top: 2%;
+}
+
+.btn_book_consultation{
+    border: 2px solid rgb(144, 155, 158);
+    border-radius: 5px;
+    padding:10px 40px;
+    margin-left: 42%;
+    float: none;
+    margin-top: 5%;
+    background-color: rgb(144, 155, 158);
+    color: white;
+        
+}
+
+/* Contact us page */
+#contact_us .title{
+    margin-top: 3%;
+    width: 30%;
+}
+.social_media_icons{
+    width: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+}
+.contact_details{
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+#contact_us .thumbnail{
+    width: 30%;
+    height: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%
+}
+
+/* About page */
+#about .title{
+    width: 15%;
+}
+
+#about p{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    text-align: center;
+}
+
+/* Services costs page */
+#services_costs .title{
+    width: 34%;
+}
+#services_costs h2{
+    margin-left: 5%;
+    margin-top: 8%;
+}
+
+.cost_thumbnail{
+    float: left;
+    width: 10%;
+    height: 20%;
+    border: 1px solid rgb(144, 155, 158);
+    border-radius: 100%;
+    margin-left: 5%;
+    margin-bottom: 2%;
+}
+.cost_thumbnail img{
+    
+}
+
+.cost_column{
+    float: right;
+    width: 70%;
+    height: 20%;
+    margin-right: 15%;
+    margin-bottom: 2%;
+}
+#services_costs .description{
+    width: 80%;
+    margin-top: 0;
+    text-align: left;
+}
+
+/* FAQs page */
+#FAQ .title{
+    width: 10%;
+}
+#FAQ h4{
+    margin-left: 8%;
+}
+#FAQ p{
+    text-align: justify;
+    margin-left: 7%;
+}
+
+#FAQ .column{
+    height: 15%;
+}
+
+/* Consultation booking form */
+#book_consultation .title{
+    width: 55%;
+}
