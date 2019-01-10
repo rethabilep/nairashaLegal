@@ -4,7 +4,7 @@
 	box-sizing: border-box;
 }
 html{
-    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 16px;
     font-weight: 400 ;
     color: rgb(144, 155, 158);
@@ -19,7 +19,7 @@ body{
 }
 
 h1{
-    font-family: 'Poiret One';
+    font-family: 'Lora';
     font-size:200%;
     font-weight: bold;
     color: rgb(144, 155, 158);
@@ -29,7 +29,7 @@ h1{
 }
 
 h1, h2, h3, h4, h5{
-    font-family: 'Poiret One';
+    font-family: 'Lora';
     font-weight:bold;
 }
 
@@ -55,6 +55,10 @@ h5{
     font-size: 18px;
     margin-bottom: 0;
     font-weight: 500;
+}
+
+a button{
+    font-family: 'Lora';
 }
 
 /* Page header */
@@ -90,8 +94,7 @@ header img{
     padding: 16px 18px;
     color: rgb(144, 155, 158);
     text-decoration: none;
-    font-weight: bold;
-    font-family: "Poiret One";
+    font-family: "Lora";
     font-size: 17px;
 }
 
@@ -104,10 +107,11 @@ header img{
 .topnav a.active {
     color: rgb(144, 155, 158);
     background-color: rgb(255, 255, 255);
-    text-decoration: underline rgb(144, 155, 158);
+    text-decoration: underline #f18A8f;
 } 
 .topnav a.active:hover{
-    background-color: rgb(144, 155, 158);
+    background-color:#f18A8f;
+    color: white;
 }
 
 
@@ -196,27 +200,34 @@ header img{
 
 }
 .btn:hover{
-    background-color: rgb(244, 135, 143);
+    background-color: #f18A8f;
     color:white;
 }
 
 /* Legal site */
 #book_now{
-    background-color: rgb(145, 155, 158);
+    background-color: #f18A8f;
+    padding: 4px 10px;
     color: rgb(255, 255, 255);
+    margin-top: 1%;
 }
 
 .title{
-    width:32%;
-    margin-top: 13%;
+    width:50%;
+    margin-top: 12%;
     margin-left: auto;
     margin-right: auto;
     font-size: 150%;
+    text-align: center;
   
 }
 .title h1{
     font-weight: 500%;
     letter-spacing: 8pt;
+}
+.title h4{
+    text-align: center;
+    font-style: italic;
 }
 
 .paragraph{
@@ -232,9 +243,9 @@ header img{
     margin-top: 5%;
 }
 .btn_book{
-    border: 2px solid rgb(144, 155, 158);
+    border: 2px solid #f18A8f;
     border-radius: 5px;
-    background-color: rgb(144, 155, 158);
+    background-color:#f18A8f;
     color: rgb(255, 255, 255);
     padding:10px 25px;
     margin: 0;
@@ -305,6 +316,20 @@ header img{
 
 #services .title{
     width: 17%;
+}
+
+/* icons */
+.material-icons.md-48  { 
+    font-size: 80px; 
+}
+.material-icons.md-pink{
+    color: #f18A8f;
+}
+.icon{
+    width: 10%;
+    margin-left: 55%;
+    margin-right: auto;
+    margin-top: 20%;
 }
 .column{
     background-color: transparent;
@@ -378,7 +403,7 @@ header img{
     background-color:transparent;
     width: 95%;
     height: 70%;
-    margin-top: 5%;
+    margin-top: 20%;
     position: relative;
     text-align: center;
     margin-left: 15%;
@@ -388,13 +413,15 @@ header img{
     margin-left: 40%;
     float: none;
     margin-top: 5%;
-    background-color: rgb(144, 155, 158);
-    color: white;
+    background-color: white;
+    color:rgb(144, 155, 158);
+    border: 1px solid rgb(144, 155, 158);
+    border-radius: 0;
 }
 
 /* blog posts page */
 #blog .title{
-    width: 25%;
+    width: 28%;
 }
 #blog .column{
     width: 20%;
