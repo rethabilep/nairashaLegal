@@ -71,44 +71,11 @@ header{
 
 header img{
     float: left;
-    width: 22%;
-    height: 55px;
+    width: 230px;
+    height: auto;
 }
 
 
-.topnav {
-    float: right;
-    overflow: hidden;
-}
-.topnav .icon {
-    display: none;
-}
-.topnav a {
-    float: left;
-    display: block;
-    text-align: center;
-    padding: 16px 18px;
-    color: rgb(144, 155, 158);
-    text-decoration: none;
-    font-weight: bold;
-    font-family: 'Lora', serif;
-    font-size: 17px;
-}
-
-.topnav a:hover {
-    background-color: rgba(144, 155, 158, 0.5);
-    color: rgb(255, 255, 255);
-
-}
-
-.topnav a.active {
-    color: rgb(144, 155, 158);
-    background-color: rgb(255, 255, 255);
-    text-decoration: underline rgb(144, 155, 158);
-}
-.topnav a.active:hover{
-    background-color: rgb(144, 155, 158);
-}
 
 
 /* CSR page */
@@ -201,9 +168,47 @@ header img{
 }
 
 /* Legal site */
-#book_now{
-    background-color: rgb(145, 155, 158);
+.topnav {
+    float: right;
+    overflow: hidden;
+}
+.topnav .icon {
+    display: none;
+}
+.topnav a {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 16px 18px;
+    color: rgb(144, 155, 158);
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Lora', serif;
+    font-size: 14px;
+}
+
+.topnav a:hover {
+    background-color: rgba(144, 155, 158, 0.5);
     color: rgb(255, 255, 255);
+
+}
+
+.topnav a.active {
+    color: rgb(144, 155, 158);
+    background-color: rgb(255, 255, 255);
+    text-decoration: underline rgb(144, 155, 158);
+}
+.topnav a.active:hover{
+    background-color: rgb(144, 155, 158);
+}
+
+#book_now{
+    background-color: rgba(241, 138, 143, 1);
+    color: rgba(255, 255, 255, 1);
+    font-size: 9px;
+    height: 18px;
+    width: 87px;
+
 }
 
 .title{
@@ -640,4 +645,7 @@ header img{
 #date{
     height: 41px;
 }
+
+/*About Us Page*/
+
 
