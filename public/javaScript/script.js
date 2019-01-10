@@ -6,11 +6,12 @@ function myFunction() {
         x.className = "topnav";
     }
 }
+console.log("detected");
+$(".bookingButton").click(function () {
+    console.log("clicked");
+    $("#bookingModal").show();
+});
 
-$(".btn_book").click(function () {
-    $(".modal").show();
-})
-
-$(".close").click(function () {
-    $(".modal").hide();
-})
+$(".close").click(function (){
+    $("#bookingModal").hide();
+});

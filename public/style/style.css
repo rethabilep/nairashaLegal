@@ -1,14 +1,14 @@
 *{
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 html{
-    font-family: 'Lato', sans-serif;
+
     font-size: 16px;
     font-weight: 400 ;
     color: rgb(144, 155, 158);
-   overflow: scroll;
+    overflow: scroll;
 
 }
 
@@ -19,7 +19,7 @@ body{
 }
 
 h1{
-    font-family: 'Poiret One';
+    font-family: 'Lora', serif;
     font-size:200%;
     font-weight: bold;
     color: rgb(144, 155, 158);
@@ -29,7 +29,7 @@ h1{
 }
 
 h1, h2, h3, h4, h5{
-    font-family: 'Poiret One';
+    font-family: 'Lora', serif;
     font-weight:bold;
 }
 
@@ -70,28 +70,28 @@ header{
 
 
 header img{
-	float: left;
-	width: 22%;
-	height: 55px;
+    float: left;
+    width: 22%;
+    height: 55px;
 }
 
 
 .topnav {
-	float: right;
+    float: right;
     overflow: hidden;
 }
 .topnav .icon {
     display: none;
-  }
+}
 .topnav a {
-	float: left;
+    float: left;
     display: block;
     text-align: center;
     padding: 16px 18px;
     color: rgb(144, 155, 158);
     text-decoration: none;
     font-weight: bold;
-    font-family: "Poiret One";
+    font-family: 'Lora', serif;
     font-size: 17px;
 }
 
@@ -105,7 +105,7 @@ header img{
     color: rgb(144, 155, 158);
     background-color: rgb(255, 255, 255);
     text-decoration: underline rgb(144, 155, 158);
-} 
+}
 .topnav a.active:hover{
     background-color: rgb(144, 155, 158);
 }
@@ -125,48 +125,48 @@ header img{
 
 .row {
     border: hidden;
-	width: 100%;
-	margin-top: 15%;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 6%;
-	padding-top: 0px;
-	padding-right: 0px;
-	padding-bottom: 0px;
-	padding-left: 0px;
-	display: inline-block
+    width: 100%;
+    margin-top: 15%;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 6%;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    display: inline-block
 }
 
 .row2 {
     border: hidden;
-	width: 100%;
-	margin-top: 0%;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 6%;
-	padding-top: 0px;
-	padding-right: 0px;
-	padding-bottom: 0px;
-	padding-left: 0px;
-	display: inline-block
+    width: 100%;
+    margin-top: 0%;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 6%;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    display: inline-block
 }
 
 .columns {
-	background-color: rgb(255, 255, 255);
-	width: 33%;
-	float: left;
-	font-family: "Source Sans Pro";
-	color: #A5A5A5;
-	line-height: 24px;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	text-align: justify;
-	margin-top: 15px;
-	margin-bottom: 15px;
-	padding-left: 0px;
-	padding-right: 0px;
-	margin-left: 0%;
-	margin-right: 0px;
+    background-color: rgb(255, 255, 255);
+    width: 33%;
+    float: left;
+    font-family: 'Lora', serif;
+    color: #A5A5A5;
+    line-height: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: justify;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0%;
+    margin-right: 0px;
 }
 
 .columns h4{
@@ -174,9 +174,9 @@ header img{
 }
 
 .thumbnail {
-	width: 13%;
-	height: 8%;
-	margin-left: 16%;
+    width: 13%;
+    height: 8%;
+    margin-left: 16%;
 }
 
 
@@ -212,7 +212,7 @@ header img{
     margin-left: auto;
     margin-right: auto;
     font-size: 150%;
-  
+
 }
 .title h1{
     font-weight: 500%;
@@ -260,8 +260,8 @@ header img{
 
 .what_we_do_thumbnail {
     border: 1px solid black;
-	width: 70%;
-	height: 70%;
+    width: 70%;
+    height: 70%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 10%;
@@ -318,7 +318,7 @@ header img{
 .row{
     margin-top: 3%;
     margin-left: 5%;
-   
+
 }
 
 .row::after{
@@ -346,14 +346,14 @@ header img{
 }
 
 .column h2{
-   
+
     margin-top: 2%;
     margin-left: 40%;
 }
 
 .column h5{
     margin-top: 2%;
-    margin-left: 18%; 
+    margin-left: 18%;
 }
 
 .column h6{
@@ -372,7 +372,7 @@ header img{
     width: 100%;
     height:100%;
     margin-bottom: 0;
-   
+
 }
 .description {
     background-color:transparent;
@@ -414,7 +414,7 @@ header img{
     margin-top: 0%;
     background-color: rgb(144, 155, 158);
     color: white;
-        
+
 }
 
 /* Need help section */
@@ -433,7 +433,7 @@ header img{
     margin-top: 5%;
     background-color: rgb(144, 155, 158);
     color: white;
-        
+
 }
 
 /* Contact us page */
@@ -493,7 +493,7 @@ header img{
     margin-bottom: 2%;
 }
 .cost_thumbnail img{
-    
+
 }
 
 .cost_column{
@@ -532,7 +532,7 @@ header img{
 
 /* The Modal (background) */
 .modal {
-    /*display: none; !* Hidden by default *!*/
+    display: none;
     position: fixed; /* Stay in place */
     z-index: 2000; /* Sit on top */
     left: 0;
@@ -564,7 +564,7 @@ header img{
 /* The Close Button */
 .close {
     top: -20px;
-    color: #aaa;
+    color: rgba(241, 138, 143, 1);
     float: right;
     font-size: 90px;
 }
@@ -581,19 +581,36 @@ header img{
     margin-top: 5%;
     margin-left: auto;
     margin-right: auto;
-    width: 30%;
+    width: 294px;
     text-align: center;
 }
+
+#bookingTitle h2{
+    font-size: 40px;
+    color:black;
+    font-weight: normal;
+}
+
+#bookingForm{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.5)
+}
+#bookingForm button, #bookingForm input, #bookingForm select, #bookingForm textarea{
+    font-family: inherit;
+    color: inherit;
+}
 #bookingForm > textarea, #date {
-    border: 3px solid;
+    border: 5px solid #F18A8F;
     width: 100%;
 }
 
-#bookingForm  input[type=text],
-#bookingForm  input[type=email] {
+#fullName,
+#email {
     border: none;
-    border-bottom-style: solid;
+    border-bottom: 5px solid #F18A8F;
     width: 40%;
+    height: 25px;
 }
 
 #bookingForm input,
@@ -604,13 +621,23 @@ header img{
 
 #bookingForm textarea{
     margin-top: 30px;
-    height: 20vh;
+    height: 145px;
 }
 
 #bookingFormButton{
     border-radius: 0;
+    background-color: #F18A8F;
+    height: 36px;
+    width: 260px;
+    border: none;
+    color:rgba(255, 255, 255, 1) !important;
 }
 
 #fullName{
     margin-right: 19%;
 }
+
+#date{
+    height: 41px;
+}
+

@@ -3,8 +3,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Nairasha Legal</title>
     <!--Fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Poiret One" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
     <!--Styles-->
     <link href="style/style.css" type="text/css" rel="stylesheet">
     <link href="style/responsive.css" type="text/css" rel="stylesheet">
@@ -20,9 +20,8 @@
 <body>
 <header>
     <img src="img/Logo1.png" alt="nairasha logo">
-
     <div class="topnav" id="responsiveTopnav">
-        <a href="" id="book_now">BOOK NOW</a>
+        <a href="" id="book_now" class="bookingButton">BOOK NOW</a>
         <a class="active" href="index.html">HOME</a>
         <a href="">WHO WE ARE</a>
         <a href="">WHAT WE DO</a>
@@ -54,7 +53,7 @@
             consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et
         </p>
 
-        <button class="btn_book">BOOK CONSULTATION</button>
+        <button class="btn_book bookingButton">BOOK CONSULTATION</button>
         <button class="btn_learn_more">LEARN MORE</button>
 
     </div>
@@ -182,7 +181,7 @@
             Do you need help?
         </h1>
     </div>
-    <button class="btn_book_consultation">BOOK CONSULTATION</button>
+    <button class="btn_book_consultation bookingButton">BOOK CONSULTATION</button>
 </section>
 
 <section id="contact_us">
@@ -237,7 +236,7 @@
             Do you need help?
         </h1>
     </div>
-    <button class="btn_book_consultation">BOOK CONSULTATION</button>
+    <button class="btn_book_consultation bookingButton">BOOK CONSULTATION</button>
 </section>
 
 <section id="contact_us">
@@ -481,28 +480,26 @@
             <p class="description"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  </p>
         </div>
     </div>
-    <button class="btn_book" >Book Consultation</button>
+    <button class="btn_book bookingButton" >Book Consultation</button>
     <div id="bookingModal" class="modal">
         <span class="close">&times;</span>
         <!--TODO: Place close icon at the very top-->
         <div class="modal-content">
             <div class="modal-body">
                 <div id="bookingTitle">
-                <h2>Book Your Consultation</h2>
+                    <h2>Book Your Consultation</h2>
                 </div>
                 <form id="bookingForm">
                     <input id="fullName" type="text" value="Full Name">
                     <input id="email" type ="email" value="Email">
-                    <label for="date"> Date of Consultation
-                        <input id="date" type="date" value="">
-                    </label>
+                    <input id="date" type="date" value="">
                     <textarea> Explain your case...</textarea>
-                    <button id="bookingFormButton" class="btn_book">Book Consultation</button>
+                    <button id="bookingFormButton" class="btn_book bookingButton">Book Consultation</button>
                 </form>
             </div>
         </div>
     </div>
 </section>
-
+<script src="javaScript/script.js"></script>
 </body>
 </html>
