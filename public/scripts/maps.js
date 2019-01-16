@@ -2,7 +2,6 @@ let map, service, userPos, directionsDisplay, infoWindow, directionsService, pla
 let serviceType = window.location.href;
 let index = serviceType.indexOf('search=');
 serviceType = serviceType.substring(index+7);
-let icon = "img/markers/"+serviceType+"_marker.png";
 // const apiKey = "AIzaSyC-8trTGc8RoSXOWhnawqg0KKQMbEUIXwM";
 const mapStyle = [
     {
@@ -137,14 +136,6 @@ function initMap() {
     map.setCenter(userPos);
     console.log(map.center);
     directionsDisplay.setMap(map);
-    // map.data.setStyle(place => {
-    //     return {
-    //         icon: {
-    //             url: `img/${place.getServiceType('category')}.png`,
-    //             scaledSize: new google.maps.Size(64, 64)
-    //         }
-    //     };
-    // });
 
 }
 
@@ -158,14 +149,14 @@ function callback(results, status) {
     }
 }
 
+
 function createMarker(place, userPos) {
     let placeLoc = place.geometry.location;
     let marker = new google.maps.Marker({
         map: map,
-        position: place.geometry.location,
-        title: place.name,
-        icon: icon
+        position: place.geometry.location
     });
+    labelPlace(place);
     marker.addListener('click', function(){
         enterPlace(place);
         calculateAndDisplayRoute(userPos, placeLoc);
@@ -176,14 +167,9 @@ function createMarker(place, userPos) {
         eventFire(document.getElementById('destination'), 'blur');
         map.setZoom(15);
     });
-
-    marker.addListener('mousehover', function () {
-        console.log(place.name);
-        displayLabel(place);
-    })
 }
 
-function displayLabel(place) {
+function labelPlace(place) {
     let placeLoc = place.geometry.location;
     let infoWindow = new google.maps.InfoWindow();
     let name = place.name;
@@ -244,9 +230,11 @@ $(".travel_mode").click(function () {
 
 /*
  TODO: Create a database((JSON) of all health services, police stations and half-way homes in Lesotho
+ TODO: Find/Create appropriate images/icons to represent health services, police stations and half-way homes
+ TODO: Add directions from user's location to Emergency Service
  TODO: Give estimates of the time it would take for the user to arrive at emergency service with different modes of transport
- TODO: Allow user to enter their location / location they want directions from.
- TODO: Filter emergency services by type (police stations, health services, half-way homes)
+ TODO: Read user's GPS location or allow user to enter their location
+ TODO: Show markers of all chosen emergency service on the map.
 
 
 

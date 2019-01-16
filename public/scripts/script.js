@@ -24,11 +24,6 @@ $(document).ready(
             $(".dialogflow iframe").hide();
             $(".closeChat").hide();
 
-        });
-
-        $(".hamburgerMenu").click(function () {
-            $("#drawer").toggle();
-            $("#noDrawer").toggle();
         })
     }
 );
