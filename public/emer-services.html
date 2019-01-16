@@ -25,7 +25,7 @@
 <body>
 <aside id ="drawer" class="mdc-drawer mdc-drawer--dismissible">
     <div class="mdc-drawer__content">
-        <button class="mdc-icon-button material-icons">menu</button>
+        <button id = "withDrawer" class="mdc-icon-button material-icons hamburgerMenu">menu</button>
         <button id = "DRIVING" class="mdc-icon-button material-icons travel_mode">directions_car</button>
         <button id = "TRANSIT" class="mdc-icon-button material-icons travel_mode">directions_bus</button>
         <button id = "BICYCLING" class="mdc-icon-button material-icons travel_mode">directions_bike</button>
@@ -44,6 +44,7 @@
         </div>
     </div>
 </aside>
+<button id="noDrawer" class="mdc-icon-button material-icons hamburgerMenu" style="display: none">menu</button>
 <header id="app-bar" class="mdc-top-app-bar mdc-elevation--7">
     <div class="mdc-top-app-bar__row">
         <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-start mdc-elevation--7">
