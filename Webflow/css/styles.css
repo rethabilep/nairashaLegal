@@ -1,4 +1,4 @@
-/* Generated on: Fri Jan 18 2019 08:27:44 GMT+0000 (UTC) */
+/* Generated on: Fri Jan 18 2019 13:40:52 GMT+0000 (UTC) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css
    ========================================================================== */
@@ -23,7 +23,7 @@
 }
 
 .section.about {
-  height: auto;
+  height: 100vh;
 }
 
 .section.blog {
@@ -485,6 +485,8 @@
 }
 
 .heading-2 {
+  margin-top: 5px;
+  margin-bottom: 0px;
   -webkit-align-self: baseline;
   -ms-flex-item-align: baseline;
   align-self: baseline;
@@ -582,11 +584,17 @@
 }
 
 .date-created {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   padding-right: 0px;
   clear: none;
   font-family: Poppins;
   color: #7d7c7a;
+}
+
+.date-created.author {
+  margin-left: 10px;
+  color: #000;
+  font-weight: 700;
 }
 
 .collection-list-wrapper {
@@ -629,10 +637,18 @@
   text-decoration: none;
 }
 
+.image-4 {
+  display: none;
+  margin-top: 0px;
+  margin-left: 10px;
+}
+
 .collection-list {
   display: inline-block;
   margin-right: auto;
   margin-left: auto;
+  padding-right: 60px;
+  padding-left: 60px;
 }
 
 .text-block {
@@ -640,7 +656,8 @@
 }
 
 .read-post {
-  margin-top: 20px;
+  margin-top: 5px;
+  margin-bottom: 15px;
   font-family: Poppins;
   color: #f18a8f;
 }
@@ -802,6 +819,165 @@
   margin-bottom: 40px;
 }
 
+.blog-post-description {
+  width: 75%;
+  margin-bottom: 0px;
+  font-family: Poppins;
+  color: #000;
+}
+
+.author-div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.category {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 20px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.div-block {
+  -webkit-align-self: stretch;
+  -ms-flex-item-align: stretch;
+  -ms-grid-row-align: stretch;
+  align-self: stretch;
+}
+
+.list-of-categories {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-align-self: stretch;
+  -ms-flex-item-align: stretch;
+  align-self: stretch;
+}
+
+.categories {
+  margin-right: 10px;
+  margin-left: 10px;
+  padding: 5px 10px;
+  -webkit-transition: border 200ms ease-in-out, all 200ms ease;
+  transition: border 200ms ease-in-out, all 200ms ease;
+  font-family: Poppins;
+  color: #7d7c7a;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.categories:hover {
+  padding: 5px 10px;
+  border: 2.5px none #f18a8f;
+  border-radius: 2px;
+  color: #f18a8f;
+}
+
+.categories:active {
+  padding: 5px 10px;
+  border: 5px none #f18a8f;
+}
+
+.category-list {
+  color: #000;
+  font-weight: 400;
+}
+
+.drop-down {
+  margin-top: 15px;
+  -webkit-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+}
+
+.category-drop-down {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  cursor: pointer;
+}
+
+.slide-nav-2 {
+  background-color: transparent;
+}
+
+.slide-4 {
+  background-color: transparent;
+}
+
+.pagination {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-right: 298px;
+  padding-left: 298px;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.go-right {
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.page-number {
+  margin-right: 5px;
+  margin-left: 5px;
+  padding-right: 20px;
+  padding-left: 20px;
+  font-family: Poppins;
+  color: #7d7c7a;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.go-left-arrow {
+  cursor: pointer;
+}
+
+.go-right-arrow {
+  cursor: pointer;
+}
+
+.collection-list-wrapper-2 {
+  padding-right: 40px;
+  padding-left: 40px;
+}
+
 @media (max-width: 991px) {
   .section.help {
     height: auto;
@@ -875,6 +1051,17 @@
   .brand {
     padding-top: 14px;
   }
+  .heading-2 {
+    line-height: 25px;
+  }
+  .image-4 {
+    width: 50%;
+    margin-top: 0px;
+    margin-left: 10px;
+  }
+  .collection-list {
+    margin-top: 20px;
+  }
   .submit-button {
     padding-right: 100px;
     padding-left: 100px;
@@ -887,6 +1074,24 @@
   }
   .container-4 {
     margin-top: 50px;
+  }
+  .blog-post-description {
+    font-size: 12px;
+    line-height: 15px;
+  }
+  .list-of-categories {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+  }
+  .drop-down {
+    margin-top: 4px;
   }
 }
 
@@ -949,6 +1154,9 @@
     margin-right: auto;
     margin-left: auto;
     text-align: center;
+  }
+  .image-4 {
+    display: none;
   }
   .read-post {
     margin-bottom: 10px;
@@ -1124,6 +1332,10 @@
     -ms-flex-pack: center;
     justify-content: center;
   }
+  .blog-post-content {
+    margin-left: 0px;
+    padding: 10px;
+  }
   .blog-link {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -1140,10 +1352,16 @@
     align-items: center;
   }
   .image-4 {
-    display: block;
+    display: none;
     margin-top: 10px;
     margin-right: auto;
     margin-left: auto;
+  }
+  .collection-list {
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-right: 30px;
+    padding-left: 30px;
   }
   .actual-post {
     font-size: 12px;
@@ -1212,5 +1430,15 @@
   }
   .text-block-2 {
     text-align: center;
+  }
+  .blog-post-description {
+    font-size: 9px;
+    line-height: 10px;
+  }
+  .drop-down {
+    margin-top: 0px;
+  }
+  .category-drop-down {
+    margin-left: 15px;
   }
 }
