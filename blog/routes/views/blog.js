@@ -1,5 +1,5 @@
-var keystone = require('keystone');
-var async = require('async');
+const keystone = require('keystone');
+const async = require('async');
 
 exports = module.exports = function (req, res) {
 
@@ -29,7 +29,6 @@ exports = module.exports = function (req, res) {
 
 			// Load the counts for each category
 			async.each(locals.data.categories, function (category, next) {
-
 				keystone.list('Post').model.count().where('categories').in([category.id]).exec(function (err, count) {
 					category.postCount = count;
 					next(err);
