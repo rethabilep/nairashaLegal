@@ -6,7 +6,6 @@ require('dotenv').config();
 const keystone = require('keystone');
 const handlebars = require('express-handlebars');
 const path = require('path');
-const mongoose = require('mongoose');
 
 
 // Initialise Keystone with your project's configuration.

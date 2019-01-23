@@ -1,3 +1,4 @@
+<!--
 <div class="container">
 	<h1 class="heading">Blog</h1>
 </div>
@@ -10,7 +11,7 @@
 				<div data-ks-editable="{{#if ../user}}{{adminEditableUrl ../../user _id}}{{/if}}" class="post">
 					<h2><a href="{{postUrl slug}}">{{{title}}}</a></h2>
 					<p class="lead text-muted">{{{categoryList categories prefix="Posted in "}}}
-							{{#if author.name.first}}by {{author.name.first}}{{/if}}
+	{{#if author.name.first}}by {{author.name.first}}{{/if}}
 					</p>
 					{{#if image}}<img src="{{{cloudinaryUrl image width=160 height=160 crop='fit' }}}" class="img pull-right">{{/if}}
 					<p>{{{content.brief}}}</p>
@@ -30,4 +31,38 @@
 		</div>
 	</div>
 	{{>pagination}}
+</div>
+-->
+<div class="section services">
+	<div class="div-block-2">
+		<a href="#" class="category-block w-inline-block">
+			<div class="category-title">All Posts</div>
+		</a>
+		<a href="#" class="category-block w-inline-block">
+			<div class="category-title">Category 1</div>
+		</a>
+		<a href="#" class="category-block w-inline-block">
+			<div class="category-title">Category 2</div>
+		</a>
+		<a href="#" class="category-block w-inline-block">
+			<div class="category-title">Category 3</div>
+		</a>
+	</div>
+	<div class="collection-list-wrapper-3 w-dyn-list">
+	<div class="collection-list-2 w-dyn-items w-row">
+		{{# each data.posts.results}}
+			<div class="collection-item-3 w-dyn-item w-col w-col-4">
+				<a href="{{postUrl slug}}" class="link-block-3 w-inline-block">
+					<img width="300" src="https://uploads-ssl.webflow.com/5c3da19f6891ba61711178f2/5c3da3426891bad08d117a1f_1547543360049-image11.jpg" alt="" sizes="(max-width: 479px) 100vw, (max-width: 767px) 300px, 29vw" srcset="https://uploads-ssl.webflow.com/5c3da19f6891ba61711178f2/5c3da3426891bad08d117a1f_1547543360049-image11-p-500.jpeg 500w, https://uploads-ssl.webflow.com/5c3da19f6891ba61711178f2/5c3da3426891bad08d117a1f_1547543360049-image11.jpg 1300w" class="blog-image"/>
+					<div class="blog-content-description">
+						<div class="category">{{{categories}}}</div>
+						<h3 class="blog-topic">{{{title}}}</h3>
+						<div class="blog-post-date">{{{publishedDate}}}</div>
+						<p class="blog-preview">{{{content.brief}}}</p>
+					</div>
+				</a>
+			</div>
+		</div>
+		{{/each}}
+	</div>
 </div>
