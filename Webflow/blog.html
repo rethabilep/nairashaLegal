@@ -1,184 +1,260 @@
 <!DOCTYPE html>
+<!-- This site was created in Webflow. http://www.webflow.com -->
+<!-- Last Published: Wed Feb 06 2019 09:58:56 GMT+0000 (UTC) -->
 <html>
-<head>
-    <meta charset="utf-8"/>
-    <title>Nairash Legal Solutions Blog</title>
-    <meta content="Nairash Legal Solutions Blog" property="og:title"/>
-    <meta content="width=device-width, initial-scale=1" name="viewport"/>
-    <link href="css/styles.css" rel="stylesheet" type="text/css"/>
-    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js" type="text/javascript"></script>
-    <script type="text/javascript">
-        WebFont.load({
-            google: {
-                families: ["Lora:regular,700", "Poppins:regular"]
-            }
-        });
-    </script>
-    <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif]-->
-    <script type="text/javascript">
-        !function(o, c) {
-            var n = c.documentElement
-                , t = " w-mod-";
-            n.className += t + "js",
-            ("ontouchstart"in o || o.DocumentTouch && c instanceof DocumentTouch) && (n.className += t + "touch")
-        }(window, document);
-    </script>
-    <link href="https://uploads-ssl.webflow.com/5c386e95b400dd7b5dc9f878/5c3c9c600ef0299fa7ffc1e1_Favicon.png" rel="shortcut icon" type="image/x-icon"/>
-    <link href="https://uploads-ssl.webflow.com/5c386e95b400dd7b5dc9f878/5c3c9c9bb0f91a0e418d347f_Bigger_Favicon.png" rel="apple-touch-icon"/>
-</head>
-<body>
-<div data-w-id="432ecb99-2ed6-cdb1-f374-bb654a5b436c" style="display:none;opacity:0" class="search-overlay">
-    <img src="https://uploads-ssl.webflow.com/5c386e95b400dd7b5dc9f878/5c3dc9f86891babfa511c483_Plus%20Button.png" data-w-id="9378f108-9428-69c9-fc1c-4ac2573f3d03" alt="" class="image-10"/>
-    <form action="/search" class="search-2 w-form">
-        <input type="search" class="search-input w-input" autofocus="true" maxlength="256" name="query" placeholder="Type here to search" id="search" required=""/>
-        <input type="submit" value="Search" class="search-button w-button"/>
-    </form>
-</div>
-<div class="nav-wrapper w-clearfix">
-    <div class="nav-logo">
-        <img src="https://uploads-ssl.webflow.com/5c386e95b400dd7b5dc9f878/5c3870ad0637d1c4b18e19aa_Logo1.png" width="92" srcset="https://uploads-ssl.webflow.com/5c386e95b400dd7b5dc9f878/5c3870ad0637d1c4b18e19aa_Logo1-p-500.png 500w, https://uploads-ssl.webflow.com/5c386e95b400dd7b5dc9f878/5c3870ad0637d1c4b18e19aa_Logo1.png 923w" sizes="(max-width: 479px) 100vw, 92px" alt=""/>
-    </div>
-    <a href="#" class="blog w-inline-block">
-        <h1 class="heading blog">Blog</h1>
-    </a>
-    <a href="index.html" class="nav-link go-back-home w-inline-block">
-        <div class="nav-text">Home</div>
-    </a>
-    <a data-w-id="19b21902-790b-d739-9b4e-bfc5324e756b" href="#" class="nav-link search w-inline-block">
-        <img src="https://uploads-ssl.webflow.com/5c386e95b400dd7b5dc9f878/5c46f15376e5963e85863a2d_search.svg" width="20" alt=""/>
-    </a>
-</div>
-<div data-w-id="292bb3f3-4fcd-f597-0d17-9c289054f13a" style="display:none;opacity:0" class="section overlay section-2">
-    <img src="https://uploads-ssl.webflow.com/5c386e95b400dd7b5dc9f878/5c3dc9f86891babfa511c483_Plus%20Button.png" width="37" data-w-id="292bb3f3-4fcd-f597-0d17-9c289054f13b" alt="" class="close"/>
-    <h1 class="heading">
-        Book Your <br/>Consultation
-    </h1>
-    <div class="container w-container">
-        <div class="booking-form w-form">
-            <form id="email-form" name="email-form" data-name="Email Form">
-                <input type="text" class="text-field w-input" maxlength="256" name="name" data-name="Name" placeholder="Your Full Name.." id="name" required=""/>
-                <input type="email" class="text-field w-input" maxlength="256" name="email" data-name="Email" placeholder="Your Email.." id="email" required=""/>
-                <input type="text" class="text-field-2 w-input" maxlength="256" name="field" data-name="Field" placeholder="DD/MM/YYYY" id="field" required=""/>
-                <textarea id="field-2" name="field-2" placeholder="Example Text" maxlength="5000" required="" class="textarea w-input"></textarea>
-                <input type="submit" value="Submit" data-wait="Please wait..." class="submit-button w-button"/>
-            </form>
-            <div class="w-form-done">
-                <div>Thank you! Your submission has been received!</div>
-            </div>
-            <div class="w-form-fail">
-                <div>Oops! Something went wrong while submitting the form.</div>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Nairash Legal Solutions Blog</title>
+        <meta content="Nairash Legal Solutions Blog" property="og:title"/>
+        <meta content="width=device-width, initial-scale=1" name="viewport"/>
+        <link href="css/styles.css" rel="stylesheet" type="text/css"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js" type="text/javascript"></script>
+        <script type="text/javascript">
+            WebFont.load({
+                google: {
+                    families: ["Montserrat:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic", "Lora:regular,700", "Poppins:regular"]
+                }
+            });
+        </script>
+        <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif]-->
+        <script type="text/javascript">
+            !function(o, c) {
+                var n = c.documentElement
+                  , t = " w-mod-";
+                n.className += t + "js",
+                ("ontouchstart"in o || o.DocumentTouch && c instanceof DocumentTouch) && (n.className += t + "touch")
+            }(window, document);
+        </script>
+        <link href="https://uploads-ssl.webflow.com/5c386e95b400dd7b5dc9f878/5c3c9c600ef0299fa7ffc1e1_Favicon.png" rel="shortcut icon" type="image/x-icon"/>
+        <link href="https://uploads-ssl.webflow.com/5c386e95b400dd7b5dc9f878/5c3c9c9bb0f91a0e418d347f_Bigger_Favicon.png" rel="apple-touch-icon"/>
+    </head>
+    <body>
+        <div data-collapse="medium" data-animation="default" data-duration="400" data-doc-height="1" class="navbar w-hidden-main w-nav">
+            <div class="container-2 w-container">
+                <a href="/" class="brand w-nav-brand">
+                    <img src="https://uploads-ssl.webflow.com/5c386e95b400dd7b5dc9f878/5c580756e0a4a54ec056d493_download_20190202_112545%20(1).png" width="115" alt=""/>
+                </a>
+                <nav role="navigation" class="nav-menu w-nav-menu">
+                    <a data-w-id="a204e456-dabc-3865-0dd5-327d44e9281a" href="#" class="button pink w-button">Book Consultation</a>
+                    <a href="/" data-w-id="a204e456-dabc-3865-0dd5-327d44e9281c" class="burger-menu-link w-nav-link">Home</a>
+                    <a href="#" data-w-id="a204e456-dabc-3865-0dd5-327d44e9281e" class="burger-menu-link w-nav-link">About</a>
+                    <a href="/blog" class="burger-menu-link w-nav-link w--current">Blog</a>
+                    <a href="/blog" data-w-id="a204e456-dabc-3865-0dd5-327d44e92820" class="burger-menu-link w-nav-link w--current">Services</a>
+                    <a href="#" data-w-id="a204e456-dabc-3865-0dd5-327d44e92822" class="burger-menu-link w-nav-link">Resources</a>
+                    <a href="#" data-w-id="a204e456-dabc-3865-0dd5-327d44e92824" class="burger-menu-link w-nav-link">FAQ &#x27;s</a>
+                </nav>
+                <div data-w-id="a204e456-dabc-3865-0dd5-327d44e92826" class="menu-button w-nav-button">
+                    <div data-w-id="a204e456-dabc-3865-0dd5-327d44e92827" class="nav-icon"></div>
+                    <div data-w-id="a204e456-dabc-3865-0dd5-327d44e92828" class="nav-icon"></div>
+                </div>
             </div>
         </div>
-    </div>
-</div>
-<div class="section services">
-    <div class="div-block-2">
-        <a href="#" class="category-block w-inline-block">
-            <div class="category-title">All Posts</div>
-        </a>
-        <a href="#" class="category-block w-inline-block">
-            <div class="category-title">Category 1</div>
-        </a>
-        <a href="#" class="category-block w-inline-block">
-            <div class="category-title">Category 2</div>
-        </a>
-        <a href="#" class="category-block w-inline-block">
-            <div class="category-title">Category 3</div>
-        </a>
-    </div>
-    <div class="collection-list-wrapper-3 w-dyn-list">
-        <div class="collection-list-2 w-dyn-items w-row">
-            <div class="collection-item-3 w-dyn-item w-col w-col-4">
-                <a href="/posts/7-must-have-tools-for-web-designers" class="link-block-3 w-inline-block">
-                    <img width="300" src="https://uploads-ssl.webflow.com/5c3da19f6891ba61711178f2/5c3da3426891bad08d117a1f_1547543360049-image11.jpg" alt="" sizes="(max-width: 479px) 100vw, (max-width: 767px) 300px, 29vw" srcset="https://uploads-ssl.webflow.com/5c3da19f6891ba61711178f2/5c3da3426891bad08d117a1f_1547543360049-image11-p-500.jpeg 500w, https://uploads-ssl.webflow.com/5c3da19f6891ba61711178f2/5c3da3426891bad08d117a1f_1547543360049-image11.jpg 1300w" class="blog-image"/>
-                    <div class="blog-content-description">
-                        <div class="category">Et quod in nihil qua</div>
-                        <h3 class="blog-topic">7 Must Have Tools For Web Designers</h3>
-                        <div class="blog-post-date">March 10, 2018</div>
-                        <p class="blog-preview">Est rerum vel alias quisquam sed et beatae.
-                            Aut cupiditate nam iusto.
-                            Voluptas officia consequatur dolores in aliquam necessitatibus dolorem sunt.
-                            Alias cupiditate voluptas error magni repudiandae et.
-                            Minus est doloribus mollitia optio aliquam aliquid e</p>
-                    </div>
-                </a>
+        <div class="nav-wrapper w-hidden-medium w-hidden-small w-hidden-tiny w-clearfix">
+            <div class="nav-logo">
+                <img src="https://uploads-ssl.webflow.com/5c386e95b400dd7b5dc9f878/5c580756e0a4a54ec056d493_download_20190202_112545%20(1).png" width="190" alt=""/>
             </div>
-            <div class="collection-item-3 w-dyn-item w-col w-col-4">
-                <a href="/posts/the-worst-advice-weve-ever-heard-about-web-design" class="link-block-3 w-inline-block">
-                    <img width="300" src="https://uploads-ssl.webflow.com/5c3da19f6891ba61711178f2/5c3da3426891ba785c117a1e_1547543358904-image10.jpg" alt="" sizes="(max-width: 479px) 100vw, (max-width: 767px) 300px, 29vw" srcset="https://uploads-ssl.webflow.com/5c3da19f6891ba61711178f2/5c3da3426891ba785c117a1e_1547543358904-image10-p-1080.jpeg 1080w, https://uploads-ssl.webflow.com/5c3da19f6891ba61711178f2/5c3da3426891ba785c117a1e_1547543358904-image10.jpg 1300w" class="blog-image"/>
-                    <div class="blog-content-description">
-                        <div class="category">Dolor iste n</div>
-                        <h3 class="blog-topic">The Worst Advice We &#x27;ve Ever Heard About Web Design</h3>
-                        <div class="blog-post-date">October 14, 2019</div>
-                        <p class="blog-preview">Culpa dolorum eos autem aperiam qui repellat.
-                            Architecto rem accusantium nostrum rerum illum.
-                            Suscipit fugit nulla unde voluptas quo repudiandae.
-                            Beatae vel eos et placeat.
-                            Nemo placeat laborum qu</p>
-                    </div>
-                </a>
+            <a href="#" class="nav-link w-inline-block">
+                <div class="nav-text">FAQ &#x27;s</div>
+            </a>
+            <a href="/blog" class="nav-link w-inline-block w--current">
+                <div class="nav-text">Blog</div>
+            </a>
+            <a href="#" class="nav-link w-inline-block">
+                <div class="nav-text">Resources</div>
+            </a>
+            <a href="#" class="nav-link w-inline-block">
+                <div class="nav-text">Services</div>
+            </a>
+            <a href="#" class="nav-link w-inline-block">
+                <div class="nav-text">About</div>
+            </a>
+            <a href="/" class="nav-link w-inline-block">
+                <div class="nav-text">Home</div>
+            </a>
+            <div class="nav-logo button">
+                <a data-w-id="06063e58-f1f0-84da-9143-39c7c74d1de7" href="#" class="button pink w-button">Book Consultation</a>
             </div>
-            <div class="collection-item-3 w-dyn-item w-col w-col-4">
-                <a href="/posts/5-great-web-design-resources" class="link-block-3 w-inline-block">
-                    <img width="300" src="https://uploads-ssl.webflow.com/5c3da19f6891ba61711178f2/5c41bcafa891e57f136d15b7_1547812013660-image4.jpg" alt="" sizes="(max-width: 479px) 100vw, (max-width: 767px) 300px, 29vw" srcset="https://uploads-ssl.webflow.com/5c3da19f6891ba61711178f2/5c41bcafa891e57f136d15b7_1547812013660-image4-p-1080.jpeg 1080w, https://uploads-ssl.webflow.com/5c3da19f6891ba61711178f2/5c41bcafa891e57f136d15b7_1547812013660-image4.jpg 1300w" class="blog-image"/>
-                    <div class="blog-content-description">
-                        <div class="category">Nam et aut v</div>
-                        <h3 class="blog-topic">5 Great Web Design Resources</h3>
-                        <div class="blog-post-date">February 7, 2019</div>
-                        <p class="blog-preview">Beatae tempora fugiat et aut non quia vel.
-                            Fugiat excepturi sunt quo placeat quas hic.
-                            Repellat eaque incidunt nobis quia doloribus reiciendis consequatur consequuntur.
-                            Cumque qui quae sit fugit nemo omnis non.
-                            Rerum nesciunt inventore maiores atque voluptatibus </p>
+        </div>
+        <div data-w-id="79ace099-de2a-c06d-73d8-05e665bbc601" class="blog-nav desktop">
+            <h1 class="blog-heading">Blog</h1>
+            <div data-w-id="1c4ebe98-dc1b-787b-2b1c-56b84c99007f" class="search-div">
+                <form action="/search" class="search-feature w-form">
+                    <input type="search" class="w-input" maxlength="256" name="query" placeholder="Search…" id="search-2" required=""/>
+                    <input type="submit" value="Search" class="search-button-2 w-button"/>
+                </form>
+                <div class="tags">
+                    <h2 class="heading-3">Tags:</h2>
+                    <div class="tag-list">
+                        <a href="#" class="tag-button w-button">+ Updates</a>
+                        <a href="#" class="tag-button w-button">+ News</a>
+                        <a href="#" class="tag-button w-button">+ Press Release</a>
+                        <a href="#" class="tag-button w-button">+ Entertainment</a>
+                        <a href="#" class="tag-button w-button">+ Advice</a>
+                        <a href="#" class="tag-button w-button">+ Tips</a>
                     </div>
-                </a>
+                </div>
             </div>
-            <div class="collection-item-3 w-dyn-item w-col w-col-4">
-                <a href="/posts/7-ways-to-improve-website-usability-and-accessibility" class="link-block-3 w-inline-block">
-                    <img width="300" src="https://uploads-ssl.webflow.com/5c3da19f6891ba61711178f2/5c41b7853b33ddfa89891fac_1547810692925-image19.jpg" alt="" class="blog-image"/>
-                    <div class="blog-content-description">
-                        <div class="category">Doloribus quo</div>
-                        <h3 class="blog-topic">7 Ways To Improve Website Usability And Accessibility</h3>
-                        <div class="blog-post-date">January 30, 2019</div>
-                        <p class="blog-preview">Debitis accusantium libero sunt quia repudiandae debitis aut recusandae eum.
-                            Tempora aliquid corrupti rem porro sit quia.
-                            Omnis sint fugiat autem exercitationem.
-                            Odio alias eum et non sequi odit et vel tempore.
-                            Eius dolore praesentium corrupti cupiditate sit.
-                            Mollitia laudantium m</p>
+            <a href="#" class="link-block-5 w-inline-block">
+                <div data-w-id="14b70217-1a40-2434-c521-20039c161453" class="search">
+                    <img src="https://uploads-ssl.webflow.com/5c386e95b400dd7b5dc9f878/5c46f15376e5963e85863a2d_search.svg" width="35" data-w-id="25906250-cf46-423b-c9e4-fe811ace1f50" alt="" class="search-icon"/>
+                    <div data-w-id="38656282-927a-b3e9-f89c-d4ac3607e216" class="search-word">Search</div>
+                    <div data-w-id="aef741d1-99a4-013a-e0bd-9207f9621809" class="search-word close-word">Close</div>
+                </div>
+            </a>
+        </div>
+        <div data-w-id="432ecb99-2ed6-cdb1-f374-bb654a5b436c" class="search-overlay">
+            <img src="https://uploads-ssl.webflow.com/5c386e95b400dd7b5dc9f878/5c3dc9f86891babfa511c483_Plus%20Button.png" data-w-id="9378f108-9428-69c9-fc1c-4ac2573f3d03" alt="" class="image-10"/>
+            <form action="/search" class="search-2 w-form">
+                <input type="search" class="search-input w-input" autofocus="true" maxlength="256" name="query" placeholder="Type here to search" id="search" required=""/>
+                <input type="submit" value="Search" class="search-button w-button"/>
+            </form>
+        </div>
+        <div data-w-id="292bb3f3-4fcd-f597-0d17-9c289054f13a" style="display:none;opacity:0" class="section overlay section-2">
+            <img src="https://uploads-ssl.webflow.com/5c386e95b400dd7b5dc9f878/5c3dc9f86891babfa511c483_Plus%20Button.png" width="37" data-w-id="292bb3f3-4fcd-f597-0d17-9c289054f13b" alt="" class="close"/>
+            <h1 class="heading">
+                Book Your <br/>Consultation
+            </h1>
+            <div class="container w-container">
+                <div class="booking-form w-form">
+                    <form id="email-form" name="email-form" data-name="Email Form">
+                        <input type="text" class="text-field w-input" maxlength="256" name="name" data-name="Name" placeholder="Your Full Name.." id="name" required=""/>
+                        <input type="email" class="text-field w-input" maxlength="256" name="email" data-name="Email" placeholder="Your Email.." id="email" required=""/>
+                        <input type="text" class="text-field-2 w-input" maxlength="256" name="field" data-name="Field" placeholder="DD/MM/YYYY" id="field" required=""/>
+                        <textarea id="field-2" name="field-2" placeholder="Example Text" maxlength="5000" required="" class="textarea w-input"></textarea>
+                        <input type="submit" value="Submit" data-wait="Please wait..." class="submit-button w-button"/>
+                    </form>
+                    <div class="w-form-done">
+                        <div>Thank you! Your submission has been received!</div>
                     </div>
-                </a>
+                    <div class="w-form-fail">
+                        <div>Oops! Something went wrong while submitting the form.</div>
+                    </div>
+                </div>
             </div>
-            <div class="collection-item-3 w-dyn-item w-col w-col-4">
-                <a href="/posts/10-great-examples-of-responsive-websites" class="link-block-3 w-inline-block">
-                    <img width="300" src="https://uploads-ssl.webflow.com/5c3da19f6891ba61711178f2/5c41bcac8a209fe8261bcc2c_1547812012401-image13.jpg" alt="" sizes="(max-width: 479px) 100vw, (max-width: 767px) 300px, 29vw" srcset="https://uploads-ssl.webflow.com/5c3da19f6891ba61711178f2/5c41bcac8a209fe8261bcc2c_1547812012401-image13-p-1080.jpeg 1080w, https://uploads-ssl.webflow.com/5c3da19f6891ba61711178f2/5c41bcac8a209fe8261bcc2c_1547812012401-image13.jpg 1300w" class="blog-image"/>
-                    <div class="blog-content-description">
-                        <div class="category">Aut eos perspiciati</div>
-                        <h3 class="blog-topic">10 Great Examples of Responsive Websites</h3>
-                        <div class="blog-post-date">April 22, 2019</div>
-                        <p class="blog-preview">Voluptas eaque dolor minus aut in et.
-                            Doloribus soluta perspiciatis sed minus tempora maiores ad saepe.
-                            Hic quaerat doloremque consequatur eum quidem quia voluptatem.
-                            Dolor magnam optio commodi ipsa cum ipsa pariatur.
-                            Distinctio error consectetur alias odit totam non aut </p>
+        </div>
+        <div class="section services">
+            <div class="collection-list-wrapper-3 w-dyn-list">
+                <div class="collection-list-2 w-dyn-items">
+                    <div class="collection-item-3 latest w-dyn-item">
+                        <a href="/posts/7-must-have-tools-for-web-designers" class="link-block-3 w-inline-block">
+                            <img width="300" src="https://uploads-ssl.webflow.com/5c3da19f6891ba61711178f2/5c3da3426891bad08d117a1f_1547543360049-image11.jpg" alt="" sizes="(max-width: 479px) 100vw, (max-width: 767px) 93vw, (max-width: 991px) 32vw, 33vw" srcset="https://uploads-ssl.webflow.com/5c3da19f6891ba61711178f2/5c3da3426891bad08d117a1f_1547543360049-image11-p-500.jpeg 500w, https://uploads-ssl.webflow.com/5c3da19f6891ba61711178f2/5c3da3426891bad08d117a1f_1547543360049-image11.jpg 1300w" class="blog-image"/>
+                            <div class="blog-content-description other-blog-posts">
+                                <div class="category">Et quod in nihil qua</div>
+                                <h3 class="blog-topic">7 Must Have Tools For Web Designers</h3>
+                                <div class="blog-post-date">March 10, 2018</div>
+                                <p class="blog-preview">Est rerum vel alias quisquam sed et beatae.
+Aut cupiditate nam iusto.
+Voluptas officia consequatur dolores in aliquam necessitatibus dolorem sunt.
+Alias cupiditate voluptas error magni repudiandae et.
+Minus est doloribus mollitia optio aliquam aliquid e</p>
+                            </div>
+                        </a>
                     </div>
-                </a>
+                </div>
             </div>
-            <div class="collection-item-3 w-dyn-item w-col w-col-4">
-                <a href="/posts/10-things-nobody-told-you-about-being-a-web-designer" class="link-block-3 w-inline-block">
-                    <img width="300" src="https://uploads-ssl.webflow.com/5c3da19f6891ba61711178f2/5c3da3426891bad08d117a1f_1547543360049-image11.jpg" alt="" sizes="(max-width: 479px) 100vw, (max-width: 767px) 300px, 29vw" srcset="https://uploads-ssl.webflow.com/5c3da19f6891ba61711178f2/5c3da3426891bad08d117a1f_1547543360049-image11-p-500.jpeg 500w, https://uploads-ssl.webflow.com/5c3da19f6891ba61711178f2/5c3da3426891bad08d117a1f_1547543360049-image11.jpg 1300w" class="blog-image"/>
-                    <div class="blog-content-description">
-                        <div class="category">Libero eos dolor f</div>
-                        <h3 class="blog-topic">10 Things Nobody Told You About Being a Web Designer</h3>
-                        <div class="blog-post-date">February 26, 2018</div>
-                        <p class="blog-preview">Reprehenderit velit molestias repudiandae quisquam sit delectus deserunt corrupti aut.
-                            Qui cupiditate ipsum eum consequatur repellat quas.
-                            Aliquid molestiae deleniti magni.
-                            Earum sit eius.
-                            Ab eligendi quasi quis id possimus consequatur.
-                            Sed ad id aperiam maxime occaecati.
-                            Itaque omnis volupta</p>
-                    </div>
+        </div>
+        <div class="collection-list-wrapper-3 w-dyn-list">
+            <div class="collection-list-2 w-dyn-items w-row">
+                <div class="collection-item-3 w-dyn-item w-col w-col-4">
+                    <a href="/posts/7-must-have-tools-for-web-designers" class="other-link-block w-inline-block">
+                        <img src="https://uploads-ssl.webflow.com/5c3da19f6891ba61711178f2/5c3da3426891bad08d117a1f_1547543360049-image11.jpg" alt="" sizes="(max-width: 479px) 100vw, (max-width: 767px) 92vw, (max-width: 991px) 30vw, 33vw" srcset="https://uploads-ssl.webflow.com/5c3da19f6891ba61711178f2/5c3da3426891bad08d117a1f_1547543360049-image11-p-500.jpeg 500w, https://uploads-ssl.webflow.com/5c3da19f6891ba61711178f2/5c3da3426891bad08d117a1f_1547543360049-image11.jpg 1300w" class="blog-image other"/>
+                        <div class="blog-content-description other-blog-posts">
+                            <div class="category">Et quod in nihil qua</div>
+                            <h1 class="blog-topic other">7 Must Have Tools For Web Designers</h1>
+                            <div class="blog-post-date">March 10, 2018</div>
+                            <p class="blog-preview">Est rerum vel alias quisquam sed et beatae.
+Aut cupiditate nam iusto.
+Voluptas officia consequatur dolores in aliquam necessitatibus dolorem sunt.
+Alias cupiditate voluptas error magni repudiandae et.
+Minus est doloribus mollitia optio aliquam aliquid e</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="collection-item-3 w-dyn-item w-col w-col-4">
+                    <a href="/posts/the-worst-advice-weve-ever-heard-about-web-design" class="other-link-block w-inline-block">
+                        <img src="https://uploads-ssl.webflow.com/5c3da19f6891ba61711178f2/5c3da3426891ba785c117a1e_1547543358904-image10.jpg" alt="" sizes="(max-width: 479px) 100vw, (max-width: 767px) 92vw, (max-width: 991px) 30vw, 33vw" srcset="https://uploads-ssl.webflow.com/5c3da19f6891ba61711178f2/5c3da3426891ba785c117a1e_1547543358904-image10-p-1080.jpeg 1080w, https://uploads-ssl.webflow.com/5c3da19f6891ba61711178f2/5c3da3426891ba785c117a1e_1547543358904-image10.jpg 1300w" class="blog-image other"/>
+                        <div class="blog-content-description other-blog-posts">
+                            <div class="category">Dolor iste n</div>
+                            <h1 class="blog-topic other">The Worst Advice We &#x27;ve Ever Heard About Web Design</h1>
+                            <div class="blog-post-date">October 14, 2019</div>
+                            <p class="blog-preview">Culpa dolorum eos autem aperiam qui repellat.
+Architecto rem accusantium nostrum rerum illum.
+Suscipit fugit nulla unde voluptas quo repudiandae.
+Beatae vel eos et placeat.
+Nemo placeat laborum qu</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="collection-item-3 w-dyn-item w-col w-col-4">
+                    <a href="/posts/5-great-web-design-resources" class="other-link-block w-inline-block">
+                        <img src="https://uploads-ssl.webflow.com/5c3da19f6891ba61711178f2/5c41bcafa891e57f136d15b7_1547812013660-image4.jpg" alt="" sizes="(max-width: 479px) 100vw, (max-width: 767px) 92vw, (max-width: 991px) 30vw, 33vw" srcset="https://uploads-ssl.webflow.com/5c3da19f6891ba61711178f2/5c41bcafa891e57f136d15b7_1547812013660-image4-p-1080.jpeg 1080w, https://uploads-ssl.webflow.com/5c3da19f6891ba61711178f2/5c41bcafa891e57f136d15b7_1547812013660-image4.jpg 1300w" class="blog-image other"/>
+                        <div class="blog-content-description other-blog-posts">
+                            <div class="category">Nam et aut v</div>
+                            <h1 class="blog-topic other">5 Great Web Design Resources</h1>
+                            <div class="blog-post-date">February 7, 2019</div>
+                            <p class="blog-preview">Beatae tempora fugiat et aut non quia vel.
+Fugiat excepturi sunt quo placeat quas hic.
+Repellat eaque incidunt nobis quia doloribus reiciendis consequatur consequuntur.
+Cumque qui quae sit fugit nemo omnis non.
+Rerum nesciunt inventore maiores atque voluptatibus </p>
+                        </div>
+                    </a>
+                </div>
+                <div class="collection-item-3 w-dyn-item w-col w-col-4">
+                    <a href="/posts/7-ways-to-improve-website-usability-and-accessibility" class="other-link-block w-inline-block">
+                        <img src="https://uploads-ssl.webflow.com/5c3da19f6891ba61711178f2/5c41b7853b33ddfa89891fac_1547810692925-image19.jpg" alt="" class="blog-image other"/>
+                        <div class="blog-content-description other-blog-posts">
+                            <div class="category">Doloribus quo</div>
+                            <h1 class="blog-topic other">7 Ways To Improve Website Usability And Accessibility</h1>
+                            <div class="blog-post-date">January 30, 2019</div>
+                            <p class="blog-preview">Debitis accusantium libero sunt quia repudiandae debitis aut recusandae eum.
+Tempora aliquid corrupti rem porro sit quia.
+Omnis sint fugiat autem exercitationem.
+Odio alias eum et non sequi odit et vel tempore.
+Eius dolore praesentium corrupti cupiditate sit.
+Mollitia laudantium m</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="collection-item-3 w-dyn-item w-col w-col-4">
+                    <a href="/posts/10-great-examples-of-responsive-websites" class="other-link-block w-inline-block">
+                        <img src="https://uploads-ssl.webflow.com/5c3da19f6891ba61711178f2/5c41bcac8a209fe8261bcc2c_1547812012401-image13.jpg" alt="" sizes="(max-width: 479px) 100vw, (max-width: 767px) 92vw, (max-width: 991px) 30vw, 33vw" srcset="https://uploads-ssl.webflow.com/5c3da19f6891ba61711178f2/5c41bcac8a209fe8261bcc2c_1547812012401-image13-p-1080.jpeg 1080w, https://uploads-ssl.webflow.com/5c3da19f6891ba61711178f2/5c41bcac8a209fe8261bcc2c_1547812012401-image13.jpg 1300w" class="blog-image other"/>
+                        <div class="blog-content-description other-blog-posts">
+                            <div class="category">Aut eos perspiciati</div>
+                            <h1 class="blog-topic other">10 Great Examples of Responsive Websites</h1>
+                            <div class="blog-post-date">April 22, 2019</div>
+                            <p class="blog-preview">Voluptas eaque dolor minus aut in et.
+Doloribus soluta perspiciatis sed minus tempora maiores ad saepe.
+Hic quaerat doloremque consequatur eum quidem quia voluptatem.
+Dolor magnam optio commodi ipsa cum ipsa pariatur.
+Distinctio error consectetur alias odit totam non aut </p>
+                        </div>
+                    </a>
+                </div>
+                <div class="collection-item-3 w-dyn-item w-col w-col-4">
+                    <a href="/posts/10-things-nobody-told-you-about-being-a-web-designer" class="other-link-block w-inline-block">
+                        <img src="https://uploads-ssl.webflow.com/5c3da19f6891ba61711178f2/5c3da3426891bad08d117a1f_1547543360049-image11.jpg" alt="" sizes="(max-width: 479px) 100vw, (max-width: 767px) 92vw, (max-width: 991px) 30vw, 33vw" srcset="https://uploads-ssl.webflow.com/5c3da19f6891ba61711178f2/5c3da3426891bad08d117a1f_1547543360049-image11-p-500.jpeg 500w, https://uploads-ssl.webflow.com/5c3da19f6891ba61711178f2/5c3da3426891bad08d117a1f_1547543360049-image11.jpg 1300w" class="blog-image other"/>
+                        <div class="blog-content-description other-blog-posts">
+                            <div class="category">Libero eos dolor f</div>
+                            <h1 class="blog-topic other">10 Things Nobody Told You About Being a Web Designer</h1>
+                            <div class="blog-post-date">February 26, 2018</div>
+                            <p class="blog-preview">Reprehenderit velit molestias repudiandae quisquam sit delectus deserunt corrupti aut.
+Qui cupiditate ipsum eum consequatur repellat quas.
+Aliquid molestiae deleniti magni.
+Earum sit eius.
+Ab eligendi quasi quis id possimus consequatur.
+Sed ad id aperiam maxime occaecati.
+Itaque omnis volupta</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="w-pagination-wrapper">
+                <a href="?83b59650_page=2" class="w-pagination-next">
+                    <div class="w-inline-block">Next</div>
+                    <svg class="w-pagination-next-icon" height="12px" width="12px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12" transform="translate(0, 1)">
+                        <path fill="none" stroke="currentColor" fill-rule="evenodd" d="M4 2l4 4-4 4"></path>
+                    </svg>
                 </a>
             </div>
         </div>
@@ -225,4 +301,3 @@
 <!--[if lte IE 9]><script src="//cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif]-->
 </body>
 </html>
-v
