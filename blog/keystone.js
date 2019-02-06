@@ -33,6 +33,7 @@ keystone.init({
 	'session': true,
 	'auth': true,
 	'user model': 'User',
+	'store': 'new RedisStore()',
 });
 
 // Load your project's Models
@@ -57,6 +58,9 @@ keystone.set('nav', {
 	posts: ['posts', 'post-categories'],
 	users: 'users',
 });
+
+//Set a production grade session store
+keystone.set('session store', 'mongo');
 
 // Start Keystone to connect to your database and initialise the web server
 
