@@ -34,35 +34,41 @@
 </div>
 -->
 <div class="section services">
-	<div class="div-block-2">
-		<a href="#" class="category-block w-inline-block">
-			<div class="category-title">All Posts</div>
-		</a>
-		<a href="#" class="category-block w-inline-block">
-			<div class="category-title">Category 1</div>
-		</a>
-		<a href="#" class="category-block w-inline-block">
-			<div class="category-title">Category 2</div>
-		</a>
-		<a href="#" class="category-block w-inline-block">
-			<div class="category-title">Category 3</div>
-		</a>
-	</div>
 	<div class="collection-list-wrapper-3 w-dyn-list">
+		<div class="collection-list-2 w-dyn-items">
+			{{# each data.posts.results}}
+				<div class="collection-item-3 latest w-dyn-item">
+					<a href="{{postUrl slug}}" class="link-block-3 w-inline-block">
+						<img width="300" src="https://uploads-ssl.webflow.com/5c3da19f6891ba61711178f2/5c3da3426891bad08d117a1f_1547543360049-image11.jpg" alt="" sizes="(max-width: 479px) 100vw, (max-width: 767px) 300px, 29vw" srcset="https://uploads-ssl.webflow.com/5c3da19f6891ba61711178f2/5c3da3426891bad08d117a1f_1547543360049-image11-p-500.jpeg 500w, https://uploads-ssl.webflow.com/5c3da19f6891ba61711178f2/5c3da3426891bad08d117a1f_1547543360049-image11.jpg 1300w" class="blog-image"/>
+						<div class="blog-content-description other-blog-posts">
+							<div class="category">Fake Category</div>
+							<h3 class="blog-topic">{{{title}}}</h3>
+							<div class="blog-post-date">{{{publishedDate}}}</div>
+							<p class="blog-preview">{{content.brief}}</p>
+						</div>
+					</a>
+				</div>
+			{{/each}}
+		</div>
+	</div>
+</div>
+<div class="collection-list-wrapper-3 w-dyn-list">
 	<div class="collection-list-2 w-dyn-items w-row">
 		{{# each data.posts.results}}
 			<div class="collection-item-3 w-dyn-item w-col w-col-4">
-				<a href="{{postUrl slug}}" class="link-block-3 w-inline-block">
-					<img width="300" src="https://uploads-ssl.webflow.com/5c3da19f6891ba61711178f2/5c3da3426891bad08d117a1f_1547543360049-image11.jpg" alt="" sizes="(max-width: 479px) 100vw, (max-width: 767px) 300px, 29vw" srcset="https://uploads-ssl.webflow.com/5c3da19f6891ba61711178f2/5c3da3426891bad08d117a1f_1547543360049-image11-p-500.jpeg 500w, https://uploads-ssl.webflow.com/5c3da19f6891ba61711178f2/5c3da3426891bad08d117a1f_1547543360049-image11.jpg 1300w" class="blog-image"/>
-					<div class="blog-content-description">
-						<div class="category">{{{categories}}}</div>
-						<h3 class="blog-topic">{{{title}}}</h3>
-						<div class="blog-post-date">{{{publishedDate}}}</div>
-						<p class="blog-preview">{{{content.brief}}}</p>
-					</div>
-				</a>
+				<div class="collection-item-3 latest w-dyn-item">
+					<a href="{{postUrl slug}}" class="other-link-block w-inline-block">
+						<img src="https://uploads-ssl.webflow.com/5c3da19f6891ba61711178f2/5c3da3426891bad08d117a1f_1547543360049-image11.jpg" alt="" sizes="(max-width: 479px) 100vw, (max-width: 767px) 92vw, (max-width: 991px) 30vw, 33vw" srcset="https://uploads-ssl.webflow.com/5c3da19f6891ba61711178f2/5c3da3426891bad08d117a1f_1547543360049-image11-p-500.jpeg 500w, https://uploads-ssl.webflow.com/5c3da19f6891ba61711178f2/5c3da3426891bad08d117a1f_1547543360049-image11.jpg 1300w" class="blog-image other"/>
+						<div class="blog-content-description other-blog-posts">
+							<div class="category"> Category 1</div>
+							<h1 class="blog-topic other">{{title}}</h1>
+							<div class="blog-post-date">{{publishedDate}}</div>
+							<p class="blog-preview"> {{content.brief}}</p>
+						</div>
+					</a>
+				</div>
 			</div>
-		</div>
 		{{/each}}
 	</div>
+	{{>pagination}}
 </div>
