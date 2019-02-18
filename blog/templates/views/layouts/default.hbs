@@ -117,12 +117,9 @@
 			<div class="tags">
 				<h2 class="heading-3">Tags:</h2>
 				<div class="tag-list">
-					<a href="#" class="tag-button w-button">+ Updates</a>
-					<a href="#" class="tag-button w-button">+ News</a>
-					<a href="#" class="tag-button w-button">+ Press Release</a>
-					<a href="#" class="tag-button w-button">+ Entertainment</a>
-					<a href="#" class="tag-button w-button">+ Advice</a>
-					<a href="#" class="tag-button w-button">+ Tips</a>
+					{{# each data.categories}}
+						<a href="#" class="tag-button w-button">+ {{name}}</a>
+					{{/ each }}
 				</div>
 			</div>
 		</div>

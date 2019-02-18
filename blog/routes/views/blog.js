@@ -3,8 +3,8 @@ const async = require('async');
 
 exports = module.exports = function (req, res) {
 
-	var view = new keystone.View(req, res);
-	var locals = res.locals;
+	let view = new keystone.View(req, res);
+	let locals = res.locals;
 
 	// Init locals
 	locals.section = 'blog';
@@ -52,7 +52,13 @@ exports = module.exports = function (req, res) {
 			next();
 		}
 	});
-
+	
+	
+	// //Load all the categories
+	// view.on('init', function(next){
+	//	
+	// });
+	
 	// Load the posts
 	view.on('init', function (next) {
 
