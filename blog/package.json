@@ -3,6 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "dependencies": {
+    "@material/card": "^0.44.0",
+    "@material/ripple": "^0.44.0",
     "acorn": "^6.0.0",
     "async": "2.1.4",
     "cloudinary": "1.7.0",

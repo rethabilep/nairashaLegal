@@ -38,7 +38,7 @@
 		<div class="collection-list-2 w-dyn-items">
 			{{# each data.posts.results}}
 				<div class="collection-item-3 latest w-dyn-item">
-					<a href="{{postUrl slug}}" class="link-block-3 w-inline-block">
+					<a href="{{postUrl slug}}" class="link-block-3 w-inline-block mdc-card--outlined">
 						<img width="300" src="https://uploads-ssl.webflow.com/5c3da19f6891ba61711178f2/5c3da3426891bad08d117a1f_1547543360049-image11.jpg" alt="" sizes="(max-width: 479px) 100vw, (max-width: 767px) 300px, 29vw" srcset="https://uploads-ssl.webflow.com/5c3da19f6891ba61711178f2/5c3da3426891bad08d117a1f_1547543360049-image11-p-500.jpeg 500w, https://uploads-ssl.webflow.com/5c3da19f6891ba61711178f2/5c3da3426891bad08d117a1f_1547543360049-image11.jpg 1300w" class="blog-image"/>
 						<div class="blog-content-description other-blog-posts">
 							<div class="category">Fake Category</div>
@@ -57,7 +57,7 @@
 		{{# each data.posts.results}}
 			<div class="collection-item-3 w-dyn-item w-col w-col-4">
 				<div class="collection-item-3 latest w-dyn-item">
-					<a href="{{postUrl slug}}" class="other-link-block w-inline-block">
+					<a href="{{postUrl slug}}" class="other-link-block w-inline-block mdc-card--outlined">
 						<img src="https://uploads-ssl.webflow.com/5c3da19f6891ba61711178f2/5c3da3426891bad08d117a1f_1547543360049-image11.jpg" alt="" sizes="(max-width: 479px) 100vw, (max-width: 767px) 92vw, (max-width: 991px) 30vw, 33vw" srcset="https://uploads-ssl.webflow.com/5c3da19f6891ba61711178f2/5c3da3426891bad08d117a1f_1547543360049-image11-p-500.jpeg 500w, https://uploads-ssl.webflow.com/5c3da19f6891ba61711178f2/5c3da3426891bad08d117a1f_1547543360049-image11.jpg 1300w" class="blog-image other"/>
 						<div class="blog-content-description other-blog-posts">
 							<div class="category"> Category 1</div>
@@ -70,5 +70,4 @@
 			</div>
 		{{/each}}
 	</div>
-	{{>pagination}}
 </div>
