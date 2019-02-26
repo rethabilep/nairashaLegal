@@ -5,7 +5,6 @@ exports = module.exports = function (req, res) {
 
 	let view = new keystone.View(req, res);
 	let locals = res.locals;
-
 	// Init locals
 	locals.section = 'blog';
 	locals.filters = {
@@ -26,7 +25,7 @@ exports = module.exports = function (req, res) {
 			}
 
 			locals.data.categories = results;
-
+			console.log(locals.data.categories)
 			// Load the counts for each category
 			async.each(locals.data.categories, function (category, next) {
 				keystone.list('Post').model.count().where('categories').in([category.id]).exec(function (err, count) {
