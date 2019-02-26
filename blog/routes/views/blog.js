@@ -1,11 +1,10 @@
-var keystone = require('keystone');
-var async = require('async');
+const keystone = require('keystone');
+const async = require('async');
 
 exports = module.exports = function (req, res) {
 
-	var view = new keystone.View(req, res);
-	var locals = res.locals;
-
+	let view = new keystone.View(req, res);
+	let locals = res.locals;
 	// Init locals
 	locals.section = 'blog';
 	locals.filters = {
@@ -26,10 +25,9 @@ exports = module.exports = function (req, res) {
 			}
 
 			locals.data.categories = results;
-
+			console.log(locals.data.categories)
 			// Load the counts for each category
 			async.each(locals.data.categories, function (category, next) {
-
 				keystone.list('Post').model.count().where('categories').in([category.id]).exec(function (err, count) {
 					category.postCount = count;
 					next(err);
@@ -53,7 +51,13 @@ exports = module.exports = function (req, res) {
 			next();
 		}
 	});
-
+	
+	
+	// //Load all the categories
+	// view.on('init', function(next){
+	//	
+	// });
+	
 	// Load the posts
 	view.on('init', function (next) {
 

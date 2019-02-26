@@ -3,28 +3,29 @@
 require('dotenv').config();
 
 // Require keystone
-var keystone = require('keystone');
-var handlebars = require('express-handlebars');
+const keystone = require('keystone');
+const handlebars = require('express-handlebars');
+const path = require('path');
+
 
 // Initialise Keystone with your project's configuration.
 // See http://keystonejs.com/guide/config for available options
 // and documentation.
 
 keystone.init({
-	'name': 'My Site',
-	'brand': 'My Site',
-
-	'sass': 'public',
+	'name': 'Blog | Nairasha Legal Support',
+	'brand': 'Blog | Nairasha Legal Support',
 	'static': 'public',
 	'favicon': 'public/favicon.ico',
 	'views': 'templates/views',
 	'view engine': '.hbs',
-
+	'cookie secret': 'b186959559cced82904d2b4c9efe18f6db26f03ff31b787a0ee6d98675abd2e40991ba5d062e09bd6d4f66bf4fa3e5ba316d7daa6ac17f581bbb780a47893770',
+	'mongo':process.env.MONGO_URI,
 	'custom engine': handlebars.create({
-		layoutsDir: 'templates/views/layouts',
-		partialsDir: 'templates/views/partials',
+		layoutsDir: path.join(__dirname,'templates/views/layouts'),
+		partialsDir: path.join(__dirname,'templates/views/partials'),
 		defaultLayout: 'default',
-		helpers: new require('./templates/views/helpers')(),
+		helpers: new require(path.join(__dirname,'./templates/views/helpers'))(),
 		extname: '.hbs',
 	}).engine,
 
@@ -32,6 +33,7 @@ keystone.init({
 	'session': true,
 	'auth': true,
 	'user model': 'User',
+	'store': 'new RedisStore()',
 });
 
 // Load your project's Models
@@ -42,7 +44,7 @@ keystone.import('models');
 // for each request) should be added to ./routes/middleware.js
 keystone.set('locals', {
 	_: require('lodash'),
-	env: keystone.get('env'),
+	env: keystone.get('.env'),
 	utils: keystone.utils,
 	editable: keystone.content.editable,
 });
@@ -57,8 +59,10 @@ keystone.set('nav', {
 	users: 'users',
 });
 
-// Start Keystone to connect to your database and initialise the web server
+//Set a production grade session store
+keystone.set('session store', 'mongo');
 
+// Start Keystone to connect to your database and initialise the web server
 
 
 keystone.start();

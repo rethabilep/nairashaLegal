@@ -2,12 +2,43 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76c0c4e3-c566-491b-a9c2-3e3e2be00f3d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/asset/undraw_warning_cyit.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/asset/Agreement.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/asset/Agreement.svg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/asset/Authentication.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/asset/Deal.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/asset/File.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/asset/Human Resources.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/asset/Legal Pairing.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/asset/NDA.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/asset/Negotiation.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/asset/Patent.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Webflow/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Webflow/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/Webflow/blog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Webflow/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/styles/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Webflow/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Webflow/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Webflow/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/services.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/public/js/jquery/jquery-2.1.4.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog/public/js/jquery/jquery-2.1.4.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/public/styles/bootstrap/bootstrap/_dropdowns.scss" beforeDir="false" afterPath="$PROJECT_DIR$/blog/public/styles/bootstrap/bootstrap/_dropdowns.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/public/styles/bootstrap/bootstrap/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/blog/public/styles/bootstrap/bootstrap/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/public/styles/site.css" beforeDir="false" afterPath="$PROJECT_DIR$/blog/public/styles/site.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/routes/views/blog.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog/routes/views/blog.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/templates/views/blog.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/views/blog.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/emer-services.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/emer-services.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/style/emer-services.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/styles/emer-services.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/style/emer-services.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/styles/emer-services.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/style/normalize.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/styles/normalize.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/style/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/styles/responsive.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/styles/style.css" afterDir="false" />
     </list>
+    <ignored path="$PROJECT_DIR$/node_modules/" />
+    <ignored path="$PROJECT_DIR$/blog/node_modules/" />
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,12 +49,97 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="262" column="32" selection-start-line="262" selection-start-column="32" selection-end-line="262" selection-end-column="44" />
+              <folding>
+                <element signature="n#head#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/about.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="339">
+              <caret line="129" column="57" lean-forward="true" selection-start-line="129" selection-start-column="57" selection-end-line="129" selection-end-column="57" />
+              <folding>
+                <element signature="n#head#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/webpack.config.js">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/public/services.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="208" column="57" lean-forward="true" selection-start-line="208" selection-start-column="57" selection-end-line="208" selection-end-column="57" />
+              <folding>
+                <element signature="n#head#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>function</find>
+      <find>&quot;form</find>
+      <find>data</find>
+      <find>.nav-wr</find>
+      <find>.blog-na</find>
+      <find>blog-heading</find>
+      <find>h1</find>
+      <find>.search-word</find>
+      <find>.blog-nav.</find>
+      <find>.search</find>
+      <find>.search-div</find>
+      <find>.nav</find>
+      <find>.nav-logo</find>
+      <find>blog-to</find>
+      <find>pagina</find>
+      <find>box-shadow</find>
+      <find>blog-hea</find>
+      <find>nav-logo</find>
+      <find>alert</find>
+      <find>nav-link w--</find>
+      <find>w--current</find>
+      <find>img</find>
+      <find>Book Consultation</find>
+      <find>Blog</find>
+      <find>Lear</find>
+      <find>497 Evergreen Rd. Roseville, CA 95673</find>
+      <find>Resour</find>
+      <find>Resources</find>
+      <find>info</find>
+      <find>map w-widget</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>Poppins</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -32,6 +148,37 @@
         <entry key="$PROJECT_DIR$" value="Interface" />
       </map>
     </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/blog/.env" />
+        <option value="$PROJECT_DIR$/blog_design/Blog Landing.html" />
+        <option value="$PROJECT_DIR$/blog/templates/views/helpers/index.js" />
+        <option value="$PROJECT_DIR$/blog/node_modules/keystone/admin/server/templates/signin.html" />
+        <option value="$PROJECT_DIR$/blog/app.yaml" />
+        <option value="$PROJECT_DIR$/blog/keystone.js" />
+        <option value="$PROJECT_DIR$/Webflow/css/styles.css" />
+        <option value="$PROJECT_DIR$/blog/public/styles/material.scss" />
+        <option value="$PROJECT_DIR$/blog/public/js/index.js" />
+        <option value="$PROJECT_DIR$/blog/public/css/styles.css" />
+        <option value="$PROJECT_DIR$/blog/models/PostCategory.js" />
+        <option value="$PROJECT_DIR$/blog/templates/views/layouts/default.hbs" />
+        <option value="$PROJECT_DIR$/blog/public/js/jquery/jquery-2.1.4.js" />
+        <option value="$PROJECT_DIR$/blog/public/styles/bootstrap/bootstrap/_dropdowns.scss" />
+        <option value="$PROJECT_DIR$/blog/public/styles/bootstrap/bootstrap/_variables.scss" />
+        <option value="$PROJECT_DIR$/blog/routes/views/blog.js" />
+        <option value="$PROJECT_DIR$/blog/templates/views/blog.hbs" />
+        <option value="$PROJECT_DIR$/Webflow/blog.html" />
+        <option value="$PROJECT_DIR$/public/js/index.js" />
+        <option value="$PROJECT_DIR$/public/index.html" />
+        <option value="$PROJECT_DIR$/public/about.html" />
+        <option value="$PROJECT_DIR$/public/services.html" />
+      </list>
+    </option>
+  </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/package.json" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-1" />
@@ -54,6 +201,11 @@
               <item name="nairashaLegal" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
             </path>
+            <path>
+              <item name="nairashaLegal" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="public" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -62,10 +214,25 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="editor.config.ad.shown" value="true" />
+    <property name="js.last.introduce.type" value="VAR" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Webflow/blog.html" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/Webflow/blog.html" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/styles" />
+      <recent name="$PROJECT_DIR$/public" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/styles" />
+      <recent name="$PROJECT_DIR$/public/css" />
+      <recent name="$PROJECT_DIR$/public/asset" />
+      <recent name="$PROJECT_DIR$/blog/public" />
       <recent name="$PROJECT_DIR$/public" />
     </key>
   </component>
@@ -81,7 +248,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="npm.build">
+  <component name="RunManager" selected="Node.js.keystone.js">
+    <configuration name="keystone.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="blog/keystone.js" working-dir="$PROJECT_DIR$">
+      <envs>
+        <env name="COOKIE_SECRET" value="b186959559cced82904d2b4c9efe18f6db26f03ff31b787a0ee6d98675abd2e40991ba5d062e09bd6d4f66bf4fa3e5ba316d7daa6ac17f581bbb780a47893770" />
+        <env name="CLOUDINARY_URL" value="cloudinary://333779167276662:_8jbSi9FB3sWYrfimcl8VKh34rI@keystone-demo" />
+        <env name="MONGO_URI" value="mongodb://morema:Morema07@ds159574.mlab.com:59574/nairashablog" />
+      </envs>
+      <method v="2" />
+    </configuration>
     <configuration name="build" type="js.build_tools.npm" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/public/package.json" />
       <command value="run" />
@@ -103,6 +278,7 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Node.js.keystone.js" />
       <item itemvalue="npm.start " />
       <item itemvalue="npm.build" />
     </list>
@@ -150,29 +326,51 @@
       <workItem from="1547110032276" duration="5420000" />
       <workItem from="1547198774253" duration="1548000" />
       <workItem from="1547361232181" duration="4243000" />
+      <workItem from="1547616436331" duration="2086000" />
+      <workItem from="1547619120535" duration="6239000" />
+      <workItem from="1548264422408" duration="5106000" />
+      <workItem from="1550472820823" duration="16891000" />
+      <workItem from="1550574395956" duration="624000" />
+      <workItem from="1550684219000" duration="581000" />
+      <workItem from="1550905564124" duration="2088000" />
+      <workItem from="1551007345673" duration="2115000" />
+      <workItem from="1551010148917" duration="595000" />
+      <workItem from="1551012032026" duration="2676000" />
+      <workItem from="1551167695693" duration="724000" />
+      <workItem from="1551199005046" duration="4238000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4149000" />
+    <option name="totallyTimeSpent" value="59395000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="757" width="1368" height="780" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19210722" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.19210722" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24944155" />
       <window_info id="Favorites" order="2" side_tool="true" weight="0.3298585" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32868218" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4996277" weight="0.70542634" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.8697674" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4996277" weight="0.5472868" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.60465115" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.36434108" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32868218" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.4966493" visible="true" weight="0.95348835" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50335073" side_tool="true" weight="0.40620154" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49590468" weight="0.8899225" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5040953" side_tool="true" weight="0.40620154" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -205,6 +403,9 @@
       <window_info anchor="right" id="Database" order="4" />
     </layout-to-restore>
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="RECENT_FILTERS">
       <map>
@@ -222,37 +423,6 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/style/responsive.css" />
-    <entry file="file://$PROJECT_DIR$/public/style/normalize.css" />
-    <entry file="file://$PROJECT_DIR$/maps2.html" />
-    <entry file="file://$PROJECT_DIR$/public/scripts/csrModal.js" />
-    <entry file="file://$PROJECT_DIR$/venv/bin/pip" />
-    <entry file="file://$PROJECT_DIR$/app.py" />
-    <entry file="file://$PROJECT_DIR$/drawer.html" />
-    <entry file="file://$PROJECT_DIR$/public/topAppBar.html" />
-    <entry file="file://$PROJECT_DIR$/style/emer-services.css" />
-    <entry file="file://$PROJECT_DIR$/node_modules/d/test/lazy.js" />
-    <entry file="file://$PROJECT_DIR$/package-lock.json" />
-    <entry file="file://$PROJECT_DIR$/bundle.css" />
-    <entry file="file://$PROJECT_DIR$/public/app.scss" />
-    <entry file="file://$PROJECT_DIR$/public/app.js" />
-    <entry file="file://$PROJECT_DIR$/firebase-debug.log" />
-    <entry file="file://$PROJECT_DIR$/public/node_modules/webpack-cli/package.json" />
-    <entry file="file://$PROJECT_DIR$/public/node_modules/@material/dialog/mdc-dialog.scss" />
-    <entry file="file://$PROJECT_DIR$/public/node_modules/@material/drawer/_mixins.scss" />
-    <entry file="file://$PROJECT_DIR$/package.json" />
-    <entry file="file://$PROJECT_DIR$/public/bundle.js" />
-    <entry file="file://$PROJECT_DIR$/Y" />
-    <entry file="file://$PROJECT_DIR$/public/404.html" />
-    <entry file="file://$PROJECT_DIR$/public/maps.html" />
-    <entry file="file://$PROJECT_DIR$/public/firebase-debug.log" />
-    <entry file="file://$PROJECT_DIR$/public/style/emer-services.scss" />
-    <entry file="file://$PROJECT_DIR$/public/scripts/material.js" />
-    <entry file="file://$PROJECT_DIR$/public/img/markers/shelter_marker_white.png" />
-    <entry file="file://$PROJECT_DIR$/public/img/markers/home_marker.png" />
-    <entry file="file://$PROJECT_DIR$/functions/index.js" />
-    <entry file="file://$PROJECT_DIR$/public/scripts/maps.js" />
-    <entry file="file://$PROJECT_DIR$/public/emer-services.html" />
     <entry file="file://$PROJECT_DIR$/public/scripts/script.js" />
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -273,16 +443,9 @@
     <entry file="file://$PROJECT_DIR$/public/booking.html" />
     <entry file="file://$PROJECT_DIR$/public/npm-debug.log" />
     <entry file="file://$PROJECT_DIR$/public/nairasha.html" />
-    <entry file="file://$PROJECT_DIR$/public/style/style.css" />
-    <entry file="file://$PROJECT_DIR$/public/about.html" />
+    <entry file="file://$PROJECT_DIR$/public/styles/style.css" />
     <entry file="file://$PROJECT_DIR$/public/javaScript/script.js" />
-    <entry file="file://$PROJECT_DIR$/.idea/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="98" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="98" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/index.html" />
     <entry file="file://$PROJECT_DIR$/public/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -290,16 +453,273 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/npm-debug.log" />
+    <entry file="file://$PROJECT_DIR$/public/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/models/User.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/node_modules/keystone/fields/types/cloudinaryimage/CloudinaryImageType.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="35" column="1" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/node_modules/handlebars/dist/cjs/handlebars/runtime.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4050">
+          <caret line="270" column="10" selection-start-line="270" selection-start-column="10" selection-end-line="270" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog_design/Blog Landing.html" />
+    <entry file="file://$PROJECT_DIR$/blog/templates/views/helpers/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="42" column="30" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/app.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/node_modules/keystone/admin/server/templates/signin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="15" lean-forward="true" selection-start-column="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/.npmrc">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/node_modules/keystone/admin/server/routes/signin.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/node_modules/keystone/admin/client/Signin/Signin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31">
+          <caret line="98" column="52" lean-forward="true" selection-start-line="98" selection-start-column="52" selection-end-line="98" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/keystone.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6">
+          <caret line="62" column="39" selection-start-line="62" selection-start-column="39" selection-end-line="62" selection-end-column="39" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/public/asset/NDA.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/templates/views/partials/pagination.hbs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/public/styles/site.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/templates/views/index.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/styles/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="1461" column="25" lean-forward="true" selection-end-line="2488" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/routes/views/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/public/styles/material.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/public/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="3820" column="4" selection-start-line="3820" selection-start-column="4" selection-end-line="3820" selection-end-column="4" />
+          <folding>
+            <element signature="e#2860#5420#1" expanded="true" />
+            <element signature="e#28033#28346#2" expanded="true" />
+            <element signature="e#28428#28745#2" expanded="true" />
+            <element signature="e#28815#29160#2" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/models/Post.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="6" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/public/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/public/styles/bootstrap/bootstrap/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6">
+          <caret line="197" column="3" selection-start-line="197" selection-start-column="3" selection-end-line="197" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/public/styles/bootstrap/bootstrap/_dropdowns.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="180" column="2" selection-start-line="180" selection-start-column="2" selection-end-line="180" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/public/js/jquery/jquery-2.1.4.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="3766" column="4" selection-start-line="3766" selection-start-column="4" selection-end-line="3766" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/routes/middleware.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/templates/views/blog.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1155">
+          <caret line="77" column="42" selection-start-line="77" selection-start-column="42" selection-end-line="77" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/models/PostCategory.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/routes/views/blog.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/npm-debug.log">
-      <provider selected="true" editor-type-id="LogFileEditorProvider">
-        <state relative-caret-position="-544" />
+    <entry file="file://$PROJECT_DIR$/public/asset/Agreement.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/styles/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/webpack.config.js">
+    <entry file="file://$PROJECT_DIR$/blog/templates/views/layouts/default.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="145" column="38" selection-start-line="145" selection-start-column="38" selection-end-line="145" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/styles/emer-services.css">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Webflow/blog.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="51" column="24" selection-start-line="51" selection-start-column="16" selection-end-line="51" selection-end-column="24" />
+          <folding>
+            <element signature="n#head#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#5;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#6;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#7;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#8;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#9;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="262" column="32" selection-start-line="262" selection-start-column="32" selection-end-line="262" selection-end-column="44" />
+          <folding>
+            <element signature="n#head#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="129" column="57" lean-forward="true" selection-start-line="129" selection-start-column="57" selection-end-line="129" selection-end-column="57" />
+          <folding>
+            <element signature="n#head#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/services.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="208" column="57" lean-forward="true" selection-start-line="208" selection-start-column="57" selection-end-line="208" selection-end-column="57" />
+          <folding>
+            <element signature="n#head#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
