@@ -2,10 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76c0c4e3-c566-491b-a9c2-3e3e2be00f3d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/public/asset/Agreement.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/asset/Agreement.svg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/asset/Authentication.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/asset/Deal.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/asset/File.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/asset/Human Resources.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/asset/Legal Pairing.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/asset/NDA.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/asset/Negotiation.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/asset/Patent.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-
-
-
 
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -29,21 +36,6 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-
-          <provider selected="true" editor-type-id="text-editor">
-
-            </state>
-          </provider>
-        </entry>
-      </file>
-
-          <provider selected="true" editor-type-id="text-editor">
-
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -57,24 +49,9 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>h1</find>
-      <find>top</find>
-      <find>key=AIzaSyCmvWSeWu-g_uQ7TpQBZFspA0KaTnMmdCg</find>
-      <find>id=&quot;csrModal&quot;</find>
-      <find>id=&quot;btn&quot;</find>
-      <find>#csrModal</find>
-      <find>style</find>
-      <find>emerg</find>
-      <find>$mdc-drawer-title-ink-opacity</find>
-      <find>navig</find>
-      <find>conso</find>
-      <find>cons</find>
+
     </findStrings>
-    <replaceStrings>
-      <replace>class=&quot;csrModal&quot;</replace>
-      <replace>class=&quot;btn&quot;</replace>
-      <replace>.csrModal</replace>
-    </replaceStrings>
+
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -117,7 +94,14 @@
 
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/styles" />
+      <recent name="$PROJECT_DIR$/public" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/styles" />
+      <recent name="$PROJECT_DIR$/public/css" />
+      <recent name="$PROJECT_DIR$/public/asset" />
       <recent name="$PROJECT_DIR$/blog/public" />
       <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$" />
@@ -241,8 +225,7 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.24944155" />
       <window_info id="Favorites" order="2" side_tool="true" weight="0.3298585" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32868218" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4996277" weight="0.38449612" />
+
       <window_info anchor="bottom" id="Debug" order="3" weight="0.60465115" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -292,15 +275,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/style/normalize.css">
+
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="563">
           <caret line="348" column="1" selection-start-line="348" selection-start-column="1" selection-end-line="348" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/maps2.html" />
-    <entry file="file://$PROJECT_DIR$/public/scripts/csrModal.js">
+
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" selection-start-line="14" selection-end-line="14" />
@@ -326,51 +308,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/d/test/lazy.js">
-      <provider selected="true" editor-type-id="text-editor" />
+
     </entry>
-    <entry file="file://$PROJECT_DIR$/package-lock.json" />
-    <entry file="file://$PROJECT_DIR$/index.html" />
-    <entry file="file://$PROJECT_DIR$/bundle.css" />
-    <entry file="file://$PROJECT_DIR$/npm-debug.log" />
-    <entry file="file://$PROJECT_DIR$/public/app.scss" />
-    <entry file="file://$PROJECT_DIR$/public/app.js" />
-    <entry file="file://$PROJECT_DIR$/firebase-debug.log" />
-    <entry file="file://$PROJECT_DIR$/public/node_modules/webpack-cli/package.json">
+
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="158" column="14" selection-start-line="158" selection-start-column="14" selection-end-line="158" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/webpack.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="14" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
+
         </state>
       </provider>
     </entry>
 
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="35" column="51" lean-forward="true" selection-start-line="35" selection-start-column="51" selection-end-line="35" selection-end-column="51" />
+
         </state>
       </provider>
     </entry>
 
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1479">
-          <caret line="907" selection-start-line="907" selection-end-line="907" />
+
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Y">
-      <provider selected="true" editor-type-id="text-editor" />
+
+      <provider selected="true" editor-type-id="text-editor">
+
+        </state>
+      </provider>
+    </entry>
+
     </entry>
 
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="18" lean-forward="true" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+
         </state>
       </provider>
     </entry>
@@ -380,19 +348,9 @@
         <state relative-caret-position="-514" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/style/emer-services.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
 
       <provider selected="true" editor-type-id="text-editor">
 
-          <folding>
-
-          </folding>
         </state>
       </provider>
     </entry>
@@ -403,6 +361,10 @@
       </provider>
     </entry>
 
+      <provider selected="true" editor-type-id="text-editor">
+
+        </state>
+      </provider>
     </entry>
 
       <provider selected="true" editor-type-id="text-editor">
