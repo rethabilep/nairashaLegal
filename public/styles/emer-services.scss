@@ -3,16 +3,16 @@ $mdc-theme-secondary: lightgrey;
 $mdc-theme-on-primary: #fff;
 $mdc-theme-on-secondary: black;
 
-@import "@material/top-app-bar/mdc-top-app-bar";
-@import "@material/icon-button/mdc-icon-button";
-@import "@material/textfield/mdc-text-field";
-@import "@material/textfield/icon/mdc-text-field-icon";
-@import "@material/drawer/mdc-drawer";
-@import "@material/list/mdc-list";
-@import "@material/tab-bar/mdc-tab-bar";
-@import "@material/tab-scroller/mdc-tab-scroller";
-@import "@material/tab-indicator/mdc-tab-indicator";
-@import "@material/tab/mdc-tab";
+//@import "@material/top-app-bar/mdc-top-app-bar";
+//@import "@material/icon-button/mdc-icon-button";
+//@import "@material/textfield/mdc-text-field";
+//@import "@material/textfield/icon/mdc-text-field-icon";
+//@import "@material/drawer/mdc-drawer";
+//@import "@material/list/mdc-list";
+//@import "@material/tab-bar/mdc-tab-bar";
+//@import "@material/tab-scroller/mdc-tab-scroller";
+//@import "@material/tab-indicator/mdc-tab-indicator";
+//@import "@material/tab/mdc-tab";
 
 #map{
   height: calc(100vh - 60px);
