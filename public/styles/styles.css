@@ -235,7 +235,7 @@
 .heading {
   font-family: Lora;
   color: #000;
-  font-size: 80px;
+  font-size: 65px;
   line-height: 85px;
   font-weight: 400;
   text-align: center;
@@ -379,6 +379,8 @@
 }
 
 .nav-wrapper {
+  position: fixed;
+  width: 100vw;
   display: block;
   padding-top: 0px;
   -webkit-box-orient: horizontal;
@@ -2485,4 +2487,28 @@
   .link-block-6 {
     padding-right: 8px;
   }
+}
+.dropdown-content{
+  position: fixed;
+  top: 47px;
+  right: 161px;
+  display: none;
+  border: 1px solid hsla(0.29850746268656825, 86.27%, 54.31%, 1.00);
+}
+.dropdown-content div:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover #about {background-color: #3e8e41;}
+
+.dropdown-content div {
+  color: black;
+  padding: 0px 5px;
+  text-decoration: none;
+  display: block;
+  cursor: pointer;
+}
+
+#about {
+  cursor: pointer;
 }

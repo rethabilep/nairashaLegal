@@ -338,9 +338,3 @@ header img{
     font-weight: bold;
     display: none;
 }
-
-#noDrawer{
-    position: fixed;
-    top: 60px;
-    z-index: 999;
-}
