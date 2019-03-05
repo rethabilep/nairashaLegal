@@ -1,0 +1,16 @@
+{
+  "service-prices": {
+  "one": {
+    "service": "Pattent and Copyright Registration",
+    "cost": "M100"
+  },
+  "two": { 
+    "service": "Employee Contract",
+    "cost": "M100"
+   },
+  "three": { 
+    "service": "Contract Negotiation",
+    "cost":"M100"
+  }
+}
+}

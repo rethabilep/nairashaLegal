@@ -1,0 +1,71 @@
+$mdc-theme-primary: rgb(235, 21, 39);
+$mdc-theme-secondary: lightgrey;
+$mdc-theme-on-primary: #fff;
+$mdc-theme-on-secondary: black;
+
+//@import "@material/top-app-bar/mdc-top-app-bar";
+//@import "@material/icon-button/mdc-icon-button";
+//@import "@material/textfield/mdc-text-field";
+//@import "@material/textfield/icon/mdc-text-field-icon";
+//@import "@material/drawer/mdc-drawer";
+//@import "@material/list/mdc-list";
+//@import "@material/tab-bar/mdc-tab-bar";
+//@import "@material/tab-scroller/mdc-tab-scroller";
+//@import "@material/tab-indicator/mdc-tab-indicator";
+//@import "@material/tab/mdc-tab";
+
+#map{
+  height: calc(100vh - 60px);
+  width: 100%;
+}
+
+#drawer{
+  top: 60px;
+  display: block;
+}
+
+// Note: these styles do not account for any paddings/margins that you may need.
+
+body {
+  display: flex;
+  height: 100vh;
+}
+.mdc-tab{
+  max-width: 12vw;
+}
+.mdc-drawer-app-content {
+  flex: auto;
+  overflow: auto;
+  position: relative;
+}
+
+.main-content {
+  overflow: auto;
+  height: 100%;
+}
+
+#app-bar {
+  position: absolute;
+  background-color: transparent;
+}
+
+// only apply this style if below top app bar
+.mdc-top-app-bar {
+  z-index: 7;
+}
+
+.mdc-drawer .mdc-list-item--activated {
+  color: rgba(235, 21, 39,.87);
+}
+.mdc-drawer .mdc-list-item--activated .mdc-list-item__graphic {
+  color: rgba(235, 21, 39,.87);
+}
+
+.mdc-list {
+  background-color: $mdc-theme-secondary;
+}
+
+.mdc-list-item__text > a{
+  text-decoration: none;
+  color:inherit;
+}

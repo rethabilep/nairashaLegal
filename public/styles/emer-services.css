@@ -1,0 +1,57 @@
+#map {
+  height: calc(100vh - 60px);
+  width: 100%;
+}
+
+#drawer {
+  top: 60px;
+  display: block;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+}
+
+.mdc-tab {
+  max-width: 12vw;
+}
+
+.mdc-drawer-app-content {
+  flex: auto;
+  overflow: auto;
+  position: relative;
+}
+
+.main-content {
+  overflow: auto;
+  height: 100%;
+}
+
+#app-bar {
+  position: absolute;
+  background-color: transparent;
+}
+
+.mdc-top-app-bar {
+  z-index: 7;
+}
+
+.mdc-drawer .mdc-list-item--activated {
+  color: rgba(235, 21, 39, 0.87);
+}
+
+.mdc-drawer .mdc-list-item--activated .mdc-list-item__graphic {
+  color: rgba(235, 21, 39, 0.87);
+}
+
+.mdc-list {
+  background-color: lightgrey;
+}
+
+.mdc-list-item__text > a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/*# sourceMappingURL=emer-services.css.map */
